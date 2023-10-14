@@ -1,0 +1,78 @@
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); /* Use rem units for relative sizing */
+  grid-gap: 2rem; /* Use rem units for relative gap */
+  width: auto;
+}
+
+/* Media query for medium screens */
+@media (max-width: 768px) {
+  .project-list {
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr)); /* Adjust column width for medium screens */
+    grid-gap: 1.5rem; /* Adjust gap for medium screens */
+  }
+}
+
+/* Media query for small screens */
+@media (max-width: 576px) {
+  .project-list {
+    grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr)); /* Further adjust column width for small screens */
+    grid-gap: 1rem; /* Further adjust gap for small screens */
+  }
+}
+
+.projectImage {
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.projectImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.projectImage:hover {
+  transform: scale(1.1);
+}
+
+.projectCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  transition: transform 0.4s ease-in-out;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.projectCard:hover {
+  transform: translateY(-5px);
+  z-index: 1231; /* Ensure the card stays on top of the overlay */
+}
+ .projectCard:hover  .projectName{
+  color: var(--main-color);
+  
+ }
+.projectName {
+  display: block; /* Show project name initially */
+  font-weight: bold;
+  margin-top: 10px;
+  color: #fff; /* Change text color to white */
+  z-index: 2; /* Place text on top of the overlay */
+}
+
+.projectButton {
+  display: block; /* Show link button initially */
+  margin-top: 0px;
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  z-index: 2; /* Place button on top of the overlay */
+}

@@ -1,0 +1,47 @@
+
+.services {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services h2 {
+  font-size: 24px;
+}
+
+.service-list {
+   margin-top: 20px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr); /* Two equal-width columns */
+  justify-content: center;
+}
+
+.service-list span {
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.service-item svg path{
+  fill: green;
+  color: green;
+}
+.service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 7px;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+
+      box-shadow: 0 0 10px rgb(0 0 0 / 85%);
+  transition: all 0.5s ease-in-out; /* Add the transition property */
+}
+
+.service-item:hover {
+    transform: scale(1.1);
+
+}

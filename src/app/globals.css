@@ -1,0 +1,45 @@
+:root{
+  --main-color:    #7B2CBF;
+  --side-font:#888;
+}
+
+body{
+ 
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(50deg, black 0%, black 79%,rgb(25, 2, 22) 80%, var(--main-color) 81%, var(--main-color) 100%);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+*{
+  color: white;
+  text-decoration: none;
+}
+.purple{
+  
+  color:var(--main-color);
+}
+.f-bold{
+  font-weight: bold;
+  
+}
+.red{
+  color: red;
+}
+.small{
+  color: var(--side-font);
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+.flex-mid{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}

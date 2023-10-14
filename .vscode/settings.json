@@ -1,0 +1,11 @@
+{
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.view.alwaysShowHeaderActions": true,
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#4C2024",
+        "titleBar.activeBackground": "#6B2C32",
+        "titleBar.activeForeground": "#FDFBFC"
+    }
+}

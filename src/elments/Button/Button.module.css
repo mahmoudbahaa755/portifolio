@@ -1,0 +1,26 @@
+/* Button.module.css */
+.button {
+    border: 0px solid rgba(0, 0, 0, 0.3); /* Reduce border size */
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.3); /* Reduce box shadow */
+  padding: 8px; /* Reduce padding */
+  height: 100%;
+  margin-top: 20px;
+  width:max-content; /* Reduce width */
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  text-transform: uppercase;
+  color: var(--main-color);
+  line-height: 30px; /* Reduce line-height */
+  font-size: 18px; /* Reduce font size */
+  font-weight: 700;
+  border-radius: 25px; /* Reduce border radius */
+  transition: all 0.5s all-ease-in-out;
+}
+
+.button:hover {
+     border: 1px solid var(--main-color);
+
+  color: #ffffff;
+  transition: all 0.4s ease-in-out;
+}
