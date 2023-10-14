@@ -4,7 +4,7 @@ import style from './page.module.css';
 const PersonalInfo = () => {
     const personalInfoData = [
         { label: 'Name', value: 'Mahmoud Bahaa' },
-        { label: 'Age', value: '20' },
+        { label: 'Age', value: '22' },
         { label: 'Address', value: 'Cairo, Egypt' },
         { label: 'Phone', value: '+201010623847' },
         { label: 'Email', value: 'mahmoudbahaa755@gmail.com' },
@@ -22,7 +22,7 @@ const PersonalInfo = () => {
                 <ul>
                     {personalInfoData.map((item, index) => (
                         <li key={index}>
-                            <span className='purple'>{item.label}:</span> <span className='f-bold'>
+                            <span className='purple'>{item.label}:</span> <span className='small f-bold'>
                                 {item.value}
                                 </span>
                         </li>

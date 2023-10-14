@@ -21,7 +21,6 @@ export default function About() {
                     <Stickman />
                 </div>
                 <div>
-                    <h1 className='purple'>Hire Me</h1>
                 </div>
             </div>
             <Services />
