@@ -1,27 +1,42 @@
 import React from 'react';
 import Head from 'next/head';
 import style from './Skill.module.css';
+import Image from 'next/image';
 
 const skills = [
   {
-    title: 'HTML',
-    description: 'Structure your web content using HTML (HyperText Markup Language).',
+    title: "HTML",
+    svg: "./icons/html5.svg",
   },
   {
-    title: 'CSS',
-    description: 'Add styles and layouts to your web pages with CSS (Cascading Style Sheets).',
+    title: "CSS",
+    svg: "./icons/css3-alt.svg",
   },
   {
-    title: 'JavaScript',
-    description: 'Bring interactivity and functionality to your websites using JavaScript.',
+    title: "JavaScript",
+    svg: "./icons/square-js.svg",
+  },
+
+  {
+    title: "React",
+    svg: "./icons/react.svg",
+  },
+
+  {
+    title: "Next.js",
+    svg: "./icons/nextjs.svg",
   },
   {
-    title: 'React',
-    description: 'Build user interfaces efficiently with the React library.',
+    title: "WordPress",
+    svg: "./icons/wordpress.svg",
   },
   {
-    title: 'Next.js',
-    description: 'Create server-rendered React applications with Next.js for improved performance.',
+    title: "Python",
+    svg: "./icons/python.svg",
+  },
+  {
+    title: "Bootstrap",
+    svg: "./icons/bootstrap.svg",
   },
 ];
 
@@ -39,7 +54,7 @@ export default function Skill() {
         {skills.map((skill, index) => (
           <div className={style.skill} key={index}>
             <h2>{skill.title}</h2>
-            <p>{skill.description}</p>
+            <Image src={skill.svg} alt={skill.title} width={100} height={100} />
           </div>
         ))}
       </div>

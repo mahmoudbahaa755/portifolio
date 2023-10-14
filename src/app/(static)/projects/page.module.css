@@ -23,6 +23,9 @@
 
 .projectImage {
   overflow: hidden;
+  position: relative;
+  height: 100%;
+  width: 100%;
   border-radius: 10px;
   transition: transform 0.3s;
 }
@@ -75,4 +78,96 @@
   text-decoration: none;
   border-radius: 5px;
   z-index: 2; /* Place button on top of the overlay */
+}
+/* Add this CSS to your 'page.module.css' stylesheet */
+
+.projectCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  transition: transform 0.3s;
+  cursor: pointer;
+  background-color: #fff;
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.projectCard:hover {
+  transform: translateY(-5px);
+}
+
+.projectImage {
+  border-radius: 10px;
+  transition: transform 0.3s;
+  overflow: hidden;
+  opacity: 0.8; /* Add opacity on hover */
+}
+
+.projectCard:hover .projectImage {
+  transform: scale(1.1);
+  opacity: 1; /* Restore full opacity on hover */
+}
+
+.projectDetails {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s;
+}
+
+.projectCard:hover .projectDetails {
+  opacity: 1; /* Show on hover */
+}
+
+.projectName {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #333;
+}
+
+.projectButton {
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.projectCard:hover .projectName,
+.projectCard:hover .projectButton {
+  display: block; /* Show project name and link button on hover */
+}
+/* Update this CSS rule in your stylesheet */
+
+.projectImage {
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  position: relative; /* Ensure relative positioning */
+}
+
+.projectImage img {
+  width: 100%; /* Make the image take full width of the div */
+  height: 100%; /* Make the image take full height of the div */
+  object-fit: cover; /* Ensures the image covers the entire space */
+  transition: transform 0.3s;
+}
+/* In your CSS stylesheet */
+.link {
+  width: 100%; /* Set the width to 100% to fill the container */
+  height: 100%; /* Set the height to 100% to fill the container */
+}
+
+.projectImage:hover {
+  transform: scale(1.1);
 }

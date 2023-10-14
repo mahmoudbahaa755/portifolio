@@ -15,7 +15,7 @@ export const navInfo = [
         id: 3,
         name: "Skills",
         url: "/skills",
-        svg: "/icons/user-solid.svg"
+        svg: "/icons/gear-solid.svg"
     },
     {
         id: 5,

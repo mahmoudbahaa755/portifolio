@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import style from './page.module.css'
-import me from '../../public/images/fromal2.png';
+import me from '../../public/images/cat.jpg';
 import Button from '@/elments/Button/Button';
 import SoicalIcons from '@/elments/socialIcons/socialIcons';
 export default function Home() {
@@ -11,11 +11,10 @@ export default function Home() {
                     <Image
                         src={me} 
                         priority={false} 
+                        fill={true}
+                        placeholder = 'empty'
                         alt="Mahmoud Bahaa"
                         className={style.img}
-                        width={400}
-                        height={400}
-                        placeholder = 'empty'
                        
                     />
                 </div>
