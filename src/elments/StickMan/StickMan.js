@@ -1,6 +1,6 @@
 import style from './Stickman.module.css';
 
-const Stickman = () => {
+export default function Stickman() {
     return (
         <div className={style.action}>
             <div className={style.stickman}>
@@ -11,16 +11,16 @@ const Stickman = () => {
                            
                         </div>
                     </div>
-                    <div className={`${style.arm} ${style['arm-right']}`}>
+                    <div className={`${style.arm} ${style.arm-right}`}>
                         <div className={style.limb}></div>
                     </div>
-                    <div className={`${style.arm} ${style['arm-left']}`}>
+                    <div className={`${style.arm} ${style.arm-left}`}>
                         <div className={style.limb}></div>
                     </div>
-                    <div className={`${style.leg} ${style['leg-right']}`}>
+                    <div className={`${style.leg} ${style.leg-right}`}>
                         <div className={style.limb}></div>
                     </div>
-                    <div className={`${style.leg} ${style['leg-left']}`}>
+                    <div className={`${style.leg} ${style.leg-left}`}>
                         <div className={style.limb}></div>
                     </div>
                 </div>
@@ -28,5 +28,3 @@ const Stickman = () => {
         </div>
     );
 };
-
-export default Stickman;
