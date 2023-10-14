@@ -1,99 +1,79 @@
 
 
-
 .stickman {
   position: relative;
-    margin: auto;
-    width: 40px;
-    top: 50px;
-    height: 100px;
-    display: inline-block;
+  margin: auto;
+  width: 40px;
+  top: 50px;
+  height: 100px;
+  display: inline-block;
+}
 
+.stickman .head {
+  position: absolute;
+  top: -18px;
+  left: -5px;
+  width: 20px;
+  height: 20px;
+  background: #000;
+  border-radius: 50%;
+}
 
-  .head {
-    position: absolute;
-    top: -18px;
-    left: -5px;
-    width: 20px;
-    height: 20px;
-    background: #000;
-    border-radius: 100%;
+.stickman .head .hat {
+  position: absolute;
+  top: -4px;
+  left: -3px;
+  width: 20px;
+  height: 10px;
+  background: #fff;
+  border-radius: 20px 20px 0 0;
+  border: 1px solid #000;
+}
 
-    .hat {
-      position: absolute;
-      top: -4px;
-      left: -3px;
-      width: 20px;
-      height: 10px;
-      border-radius: 20px 20px 0px 0px;
-      background: #fff;
-      border: 1px solid #000;
-    }
-  }
+.stickman .arm, .stickman .limb {
+  position: absolute;
+  width: 8px;
+  height: 20px;
+  background: #000;
+  border-radius: 10px;
+}
 
-  .arm {
-    position: absolute;
-    top: 0px;
-    left: 1px;
-    width: 8px;
-    height: 20px;
-    background: #000;
-    border-radius: 10px;
-    transform: rotate(-45deg);
-    transform-origin: 4px 4px;
-  }
+.stickman .arm {
+  top: 0;
+  left: 1px;
+  transform: rotate(-45deg);
+  transform-origin: 4px 4px;
+}
 
-  .limb {
-    position: absolute;
-    top: 15px;
-    left: 0px;
-    width: 8px;
-    height: 20px;
-    background: #000;
-    border-radius: 10px;
-    transform: rotate(-90deg);
-    transform-origin: 4px 4px;
-  }
+.stickman .limb {
+  top: 15px;
+  left: 0;
+  transform: rotate(-90deg);
+  transform-origin: 4px 4px;
+}
 
-  .arm-left {
-    animation: leftArm 0.75s infinite;
-  }
+.stickman .leg {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  width: 10px;
+  height: 20px;
+  background: #000;
+  border-radius: 10px;
+  transform: rotate(-90deg);
+  transform-origin: 5px 5px;
+}
 
-  .arm-right {
-    animation: rightArm 0.75s infinite;
-  }
-
-  .leg {
-    position: absolute;
-    top: 25px;
-    left: 0px;
-    width: 10px;
-    height: 20px;
-    background: #000;
-    border-radius: 10px;
-    transform: rotate(-90deg);
-    transform-origin: 5px 5px;
-  }
-
-  .limb {
-    position: absolute;
-    top: 15px;
-    left: 0px;
-    width: 10px;
-    height: 25px;
-    background: #000;
-    border-radius: 10px 10px 0px 0px;
-    transform: rotate(90deg);
-    transform-origin: 5px 5px;
-  }
-
-  .leg-left {
-    animation: leftLeg 0.75s infinite;
-  }
-
-  .leg-right {
-    animation: rightLeg 0.75s infinite;
-  }
+.stickman .leg .limb {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 10px;
+  height: 25px;
+  background: #000;
+  border-radius: 10px 10px 0 0;
+  transform: rotate(90deg);
+  transform-origin: 5px 5px;
 }
 
 
