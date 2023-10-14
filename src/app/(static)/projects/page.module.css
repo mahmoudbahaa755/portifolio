@@ -1,6 +1,6 @@
 .project-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); /* Use rem units for relative sizing */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Use rem units for relative sizing */
   grid-gap: 2rem; /* Use rem units for relative gap */
   width: auto;
 }
@@ -8,7 +8,7 @@
 /* Media query for medium screens */
 @media (max-width: 768px) {
   .project-list {
-    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr)); /* Adjust column width for medium screens */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust column width for medium screens */
     grid-gap: 1.5rem; /* Adjust gap for medium screens */
   }
 }
@@ -16,7 +16,7 @@
 /* Media query for small screens */
 @media (max-width: 576px) {
   .project-list {
-    grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr)); /* Further adjust column width for small screens */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Further adjust column width for small screens */
     grid-gap: 1rem; /* Further adjust gap for small screens */
   }
 }

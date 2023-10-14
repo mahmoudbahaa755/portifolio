@@ -1,9 +1,16 @@
 .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); /* Two columns with a minimum width of 300px */
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); Two columns with a minimum width of 300px */
     gap: 40px;
-    width: 100%;
+    flex-direction:row;
+        flex-wrap:nowrap;
 }
+@media screen and (max-width: 968px) {
+    .grid {
+        flex-wrap: wrap;
+    }
+}
+    
 .contact-form{
     display: flex;
     flex-direction: column;

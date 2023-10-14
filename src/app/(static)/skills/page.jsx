@@ -3,6 +3,8 @@ import Head from 'next/head';
 import style from './Skill.module.css';
 import Image from 'next/image';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 const skills = [
   {
     title: "HTML",
@@ -54,6 +56,7 @@ export default function Skill() {
         {skills.map((skill, index) => (
           <div className={style.skill} key={index}>
             <h2>{skill.title}</h2>
+
             <Image src={skill.svg} alt={skill.title} width={100} height={100} />
           </div>
         ))}

@@ -12,6 +12,7 @@ export default function Projects() {
           My <span className="purple">Portfolio</span>
         </h1>
         <small className="small">Showcasing Some Of My Best Work</small>
+        <h1 className="red">Not Finished YET</h1>
       </div>
       <div className={style["project-list"]}>
         {projects.map((project, index) => (
