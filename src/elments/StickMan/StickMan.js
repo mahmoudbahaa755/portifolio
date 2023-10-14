@@ -11,16 +11,16 @@ export default function Stickman() {
                            
                         </div>
                     </div>
-                    <div className={`${style.arm} ${style.arm-right}`}>
+                    <div className={`${style.arm} ${style['arm-right']}`}>
                         <div className={style.limb}></div>
                     </div>
-                    <div className={`${style.arm} ${style.arm-left}`}>
+                    <div className={`${style.arm} ${style['arm-left']}`}>
                         <div className={style.limb}></div>
                     </div>
-                    <div className={`${style.leg} ${style.leg-right}`}>
+                    <div className={`${style.leg} ${style['leg-right']}`}>
                         <div className={style.limb}></div>
                     </div>
-                    <div className={`${style.leg} ${style.leg-left}`}>
+                    <div className={`${style.leg} ${style['leg-left']}`}>
                         <div className={style.limb}></div>
                     </div>
                 </div>

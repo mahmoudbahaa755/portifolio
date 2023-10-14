@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import style from './Services.module.css';
-import { services } from '../data';
+import { services } from './data';
 export default function Services() {
 
 

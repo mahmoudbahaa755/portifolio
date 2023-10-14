@@ -1,5 +1,5 @@
 
-import style from '../page.module.css';
+import style from './page.module.css';
 
 const PersonalInfo = () => {
     const personalInfoData = [

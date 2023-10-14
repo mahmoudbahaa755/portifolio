@@ -1,8 +1,8 @@
 import Stickman from '@/elments/StickMan/StickMan';
 import style from './page.module.css'
 
-import PersonalInfo from './aboutCompnent/PersonalInfo';
-import Services from './aboutCompnent/Services/Services';
+import PersonalInfo from './PersonalInfo';
+import Services from '@/component/Services/Services';
 export default function About() {
     return (
         <div className={style['about-me']}>
