@@ -9,11 +9,13 @@ export default function Home() {
             <div className={style.compenet}>
                 <div className={style.image}>
                     <Image
-                        src={me}
+                        src={me} 
+                        priority={false} 
                         alt="Mahmoud Bahaa"
                         className={style.img}
                         width={400}
                         height={400}
+                        placeholder = 'empty'
                        
                     />
                 </div>

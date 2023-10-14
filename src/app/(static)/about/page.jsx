@@ -1,6 +1,5 @@
 import Stickman from '@/elments/StickMan/StickMan';
 import style from './page.module.css'
-import Image from 'next/image';
 
 import PersonalInfo from './aboutCompnent/PersonalInfo';
 import Services from './aboutCompnent/Services/Services';
