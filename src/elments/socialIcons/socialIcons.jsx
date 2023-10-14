@@ -31,7 +31,7 @@ export default function SoicalIcons(){
         <div >
             {data.map((item, index) => (
                 <Link key={index} href={item.url}>
-                        <Image src={item.svg} width={w_h} height={w_h}></Image>
+                        <Image src={item.svg} alt={item.name} width={w_h} height={w_h}></Image>
                     </Link>
             ))}
         </div>
