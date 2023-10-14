@@ -1,4 +1,4 @@
-import style from './Stickman.module.css';
+import style from './StickMan.module.css';
 
 export default function Stickman() {
     return (
