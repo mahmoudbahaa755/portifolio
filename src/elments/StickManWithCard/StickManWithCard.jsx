@@ -4,8 +4,6 @@ import style from "./StickManWithCard.module.css";
 import { useAppContext } from "@/Context/AppContext";
 export default function StickManWithCard() {
   const { hoveredIcon } = useAppContext();
-  console.log('hoveredIcon');
-  console.log(hoveredIcon);
   return (
     <div className={style.main}>
       <div draggable="true" className={style["stickman"]}>

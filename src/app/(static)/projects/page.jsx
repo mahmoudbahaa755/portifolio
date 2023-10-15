@@ -21,8 +21,8 @@ export default function Projects() {
       </div>
       <div className={style["project-list"]}>
         {/* Loop */}
-        {projects.map((project) => (
-          <Card project={project} />
+        {projects.map((project,index) => (
+          <Card key={index} project={project} />
         
         ))}
       </div>
