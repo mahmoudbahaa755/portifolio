@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  images: {
+  images: { unoptimized: true ,
     domains: ["w3.org"],
   },
 };

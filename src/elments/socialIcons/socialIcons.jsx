@@ -14,7 +14,7 @@ export default function SoicalIcons(){
         {
             id: 2,
             name: "Github",
-            url: "https://github.com/mahmoudbahaa12",
+            url: "https://github.com/mahmoudbahaa755",
         svg: "/icons/github.svg"
     }
             ,{

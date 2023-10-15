@@ -166,3 +166,29 @@
   margin-left: 40px;
   width: 8px;
 }
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(30deg);
+  }
+
+  50% {
+    transform: rotate(50deg);
+  }
+
+  100% {
+    transform: rotate(30deg);
+  }
+}
+
+.main:hover .la {
+  margin-left: 1px;
+  margin-top: -75px;
+  width: 90px;
+  height: 10px;
+  position: absolute;
+  background: green;
+  border-radius: 2px;
+  animation: rotateAnimation 2s infinite;
+  /* Adjust the duration as needed */
+}
