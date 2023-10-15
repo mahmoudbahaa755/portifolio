@@ -2,6 +2,8 @@ import Image from 'next/image'
 import style from './page.module.css'
 import me from '../../public/images/cat.jpg';
 import Button from '@/elments/Button/Button';
+import StickManWithCard from '@/elments/StickManWithCard/StickManWithCard'
+
 import SoicalIcons from '@/elments/socialIcons/socialIcons';
 export default function Home() {
   return (
@@ -17,6 +19,7 @@ export default function Home() {
                         className={style.img}
                        
                     />
+
                 </div>
                 <div className={style.content}>
                   <div className='flex-mid'>
@@ -26,6 +29,8 @@ export default function Home() {
                     
                     <SoicalIcons />
                   </div>
+
+        <StickManWithCard />
                     <p className={style.preaf}>
 I'm a web developer in Egypt with 2 years of experience in creating cutting-edge
  UX/UI designs and websites. I specialize in crafting user-centric products that 

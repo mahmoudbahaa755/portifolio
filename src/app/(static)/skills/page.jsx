@@ -40,7 +40,15 @@ const skills = [
     title: "Bootstrap",
     svg: "./icons/bootstrap.svg",
   },
+  {
+    title: "Firebase",
+    svg: "./icons/firebase.svg",
+  },
 ];
+export const metadata = {
+  title: "Skills",
+  description: "My Skills.",
+};
 
 export default function Skill() {
   return (

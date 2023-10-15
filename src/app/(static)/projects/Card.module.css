@@ -1,0 +1,238 @@
+
+.split{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.imgTitle{
+  display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.eye{
+  position: absolute;
+    top: 5px;
+    right: 0px;
+    width: 8px;
+    height: 8px;
+    /* font-size: 9px; */
+    z-index: 2;
+    cursor: pointer;
+    color: whitesmoke;
+    background: whitesmoke;
+    border-radius: 50%;
+    left: 9px;
+}
+.icons{
+  position: relative;
+    right: 0px;
+    display: flex;
+    right: 15px;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.projectCard:hover {
+  transform: translateY(-5px);
+  z-index: 1231; /* Ensure the card stays on top of the overlay */
+}
+ .projectCard:hover  .projectName{
+  color: var(--main-color);
+  
+ }
+.projectName {
+  display: block; /* Show project name initially */
+  font-weight: bold;
+  margin-top: 10px;
+  color: black; /* Change text color to white */
+  z-index: 2; /* Place text on top of the overlay */
+}
+
+.projectButton {
+  display: block; /* Show link button initially */
+  margin-top: 0px;
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  z-index: 2; /* Place button on top of the overlay */
+}
+/* Add this CSS to your 'page.module.css' stylesheet */
+.projectCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.4s ease-in-out;
+  border-radius: 10px;
+  /* height: 350px; */
+  background-color:gray;
+  cursor: pointer;
+  margin-bottom: 20px;
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.projectCard:hover {
+  transform: translateY(-5px);
+}
+
+.projectImage {
+  overflow: hidden;
+  border-radius: 15px 0px 0px 15px;
+  transition: transform 0.3s;
+  position: relative; /* Ensure relative positioning */
+  height: 130%;
+  width: 100%;
+}
+.projectCard:hover {
+  .studio-button {
+    max-width: 100%;
+  }
+  .studio-button-label {
+    opacity: 1;
+    transform: translateX(0);
+    transition: 0.25s 0.1s ease-in opacity, 0.15s 0.1s cubic-bezier(.175, .885, .32, 1.275) transform;
+  }
+}
+
+.studio-button-label {
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 0 8px;
+  opacity: 0;
+  transform: translateX(10px);
+  transition: 0.25s ease all;
+}
+.projectDetails{
+  display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+    height: fit-content;
+    z-index: 2;
+}
+.studio-button-icon {
+  position: relative;
+  top: 1px;
+}
+
+.studio-button {
+  /* position: absolute; */
+  bottom: 16px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  background: #68009d;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 50px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  transition: 0.35s ease all;
+  overflow: hidden;
+  max-width: 40px;
+  height: 40px;
+}
+
+
+.projectName {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #333;
+}
+
+.projectButton {
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.projectCard:hover .projectName,
+.projectCard:hover .projectButton {
+  display: block; /* Show project name and link button on hover */
+}
+/* Update this CSS rule in your stylesheet */
+
+.box {
+  background: white;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  position: relative;
+}
+
+.box-icon {
+  display: grid;
+  place-items: center;
+}
+
+.box-label {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  font-size: 14px;
+  letter-spacing: 0.125em;
+}
+
+.box-title {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 24px;
+  padding-top: 16px;
+}
+
+
+
+.studio-button-icon {
+  position: relative;
+  top: 1px;
+}
+
+.studio-button-label {
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 0 8px;
+  opacity: 0;
+  transform: translateX(10px);
+  transition: 0.25s ease all;
+}
+
+.box:hover {
+  .studio-button {
+    max-width: 100%;
+  }
+  .studio-button-label {
+    opacity: 1;
+    transform: translateX(0);
+    transition: 0.25s 0.1s ease-in opacity, 0.15s 0.1s cubic-bezier(.175, .885, .32, 1.275) transform;
+  }
+}
+
+
+
+
+
+.smile {
+  stroke:#920d23;
+  stroke-width:1.3;
+  stroke-linecap:round;
+  fill:transparent;
+}

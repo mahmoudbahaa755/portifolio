@@ -9,8 +9,9 @@
   cursor: pointer;
   outline: none;
   background: transparent;
+  padding: 6px 8px;
   text-transform: uppercase;
-  color: var(--main-color);
+  color: whitesmoke;
   line-height: 30px; /* Reduce line-height */
   font-size: 18px; /* Reduce font size */
   font-weight: 700;
@@ -21,6 +22,6 @@
 .button:hover {
      border: 1px solid var(--main-color);
 
-  color: #ffffff;
+  color: var(--main-color);
   transition: all 0.4s ease-in-out;
 }

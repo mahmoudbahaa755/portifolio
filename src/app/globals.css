@@ -1,8 +1,10 @@
 :root{
-  --main-color:    #7B2CBF;
+  --main-color:    #2cbf6c;
   --side-font:#888;
 }
-
+li{
+  list-style: none;
+}
 body{
  
   margin: 0;
