@@ -18,7 +18,7 @@ export default function Card({ project }) {
         </div>
 
         <div className={style.imgTitle}>
-          <span>{project.name}</span>
+          <span className={style.title}>{project.name}</span>
           <div className={style["projectImage"]}>
             <Link
               href={project.LiveServer}

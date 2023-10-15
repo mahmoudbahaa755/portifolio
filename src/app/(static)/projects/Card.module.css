@@ -75,12 +75,18 @@
   transition: transform 0.4s ease-in-out;
   border-radius: 10px;
   /* height: 350px; */
-  background-color:gray;
+  background-color:rgb(238, 233, 233);
   cursor: pointer;
   margin-bottom: 20px;
   overflow: hidden; /* Hide overflowing content */
 }
-
+.title{
+  color:var(--main-color);
+  padding: 10px;
+    /* display: flex; */
+    font-weight: 700;
+    font-size: 22px;
+}
 .projectCard:hover {
   transform: translateY(-5px);
 }
@@ -134,7 +140,7 @@
   right: 16px;
   display: flex;
   align-items: center;
-  background: #68009d;
+  background: var(--main-color);
   color: white;
   padding: 8px 10px;
   border-radius: 50px;
