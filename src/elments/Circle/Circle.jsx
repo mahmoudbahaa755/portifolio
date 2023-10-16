@@ -1,4 +1,4 @@
-
+import Link from 'next/link';
 import style from './Circle.module.css'
 
 export default function Circle({props}) {

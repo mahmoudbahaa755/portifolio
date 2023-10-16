@@ -19,9 +19,9 @@ export default function Navbar() {
   return (
     <div>
      
-      {/* <button onClick={toggleNavbar} className={style.menu}>
+      <button onClick={toggleNavbar} className={style.menu}>
   ☰
-</button> */}
+</button>
       <div className={style.container}>
         <div
           className={`${style.navbar}`}
