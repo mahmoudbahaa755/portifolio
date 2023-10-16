@@ -54,6 +54,10 @@
   /* Center horizontally */
 }
 
+.menu {
+  display: none;
+}
+
 .navbarlink.active {
   margin-right: 75px;
   border: 2px solid var(--main-color);
@@ -137,6 +141,7 @@
     position: relative;
     bottom: -50px;
     right: 70px;
+    display: none;
     width: fit-content;
     margin: 0px auto;
     border-radius: 0;
@@ -151,17 +156,27 @@
     /* Change to a horizontal layout for links */
   }
 
-  @media (max-width: 768px) {
-    .navbarlink.active {
-      /* Adjust the styles to move the "active" item to the top */
-      margin-right: 0;
-      /* Remove the right margin */
-      margin-bottom: 15px;
-      /* Add top margin to move it to the top */
-      color: green;
-      background-color: rgb(red, green, blue);
-      box-shadow: 0 0 0 2px black;
-    }
+  .navbarlink.active {
+    /* Adjust the styles to move the "active" item to the top */
+    margin-right: 0;
+    /* Remove the right margin */
+    margin-bottom: 15px;
+    /* Add top margin to move it to the top */
+    color: green;
+    background-color: rgb(red, green, blue);
+    box-shadow: 0 0 0 2px black;
   }
 
+  .menu {
+    display: flex;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: red;
+    position: absolute;
+    z-index: 100;
+    top: 20px;
+    border-radius: 5px;
+    padding: 3px;
+  }
 }

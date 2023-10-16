@@ -57,6 +57,14 @@ export const projects = [
     LiveServer: "https://github.com/mahmoudbahaa755/web-scrapping-wuzzef-",
     soruceCode: "https://github.com/mahmoudbahaa755/web-scrapping-wuzzef-",
   },
+  {
+    id: 8,
+    name: "Restaurant Menu",
+    Technology: ["html", "css", "react", "responsive"],
+    image: "/images/Restaurant.png",
+    LiveServer: "https://restaurant-react-pi.vercel.app/",
+    soruceCode: "https://github.com/mahmoudbahaa755/Restaurant-react",
+  },
 ];
 
 export const skills = {

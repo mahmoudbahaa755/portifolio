@@ -8,9 +8,9 @@ export default function Card({ project }) {
       <div className={style.split}>
         <div>
           <ul className={style.icons}>
-            {project.Technology.map((tech,id) => (
+            {project.Technology.map((tech, id) => (
               <li key={id}>
-                <Image src={skills [tech]} width={40}  height={40} />
+                <Image src={skills[tech]} width={40} height={40} />
               </li>
             ))}
           </ul>
@@ -24,18 +24,22 @@ export default function Card({ project }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image
-                src={project.image}
-                priority={false}
-                placeholder="empty"
-                layout="responsive"
-                width={400}
-                height={800}
-                alt={project.name}
-              />
+              <div className={style.imgBox}>
+                <Image
+                  src={project.image}
+                  priority={false}
+                  
+                  placeholder="empty"
+                  layout="responsive"
+                  width={400}
+                  height={300}
+
+                  alt={project.name}
+                />
+              </div>
             </Link>
           </div>
-        
+
           <div className={style["projectDetails"]}>
             <div className={style["studio-button"]}>
               <div className={style["studio-button-icon"]}>
