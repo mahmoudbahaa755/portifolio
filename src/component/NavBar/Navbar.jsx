@@ -33,6 +33,7 @@ export default function Navbar() {
                 width={66}
                 height={66}
               />
+              <div className={style.name}>{item.name}</div>
             </Link>
           ))}
         </div>

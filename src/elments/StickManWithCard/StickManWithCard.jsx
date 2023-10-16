@@ -1,9 +1,10 @@
 'use client'
 
+import Link from "next/link";
 import style from "./StickManWithCard.module.css";
 import { useAppContext } from "@/Context/AppContext";
 export default function StickManWithCard() {
-  const { hoveredIcon } = useAppContext();
+  // const { hoveredIcon } = useAppContext();
   return (
     <div className={style.main}>
       <div draggable="true" className={style["stickman"]}>
@@ -15,7 +16,11 @@ export default function StickManWithCard() {
         <div className={style["mouth"]}></div>
         <div className={style["la"]}></div>
         <div className={style["ra"]}></div>
-        <div className={style.card}>{hoveredIcon}</div>
+        <div className={style.card}>
+          <Link href="https://drive.google.com/file/d/1vYQjCJugZZG_ku4YxShRwVfDTJ-SW1D-/view?usp=drivesdk">
+            my CV
+          </Link>
+        </div>
         <div className={style["h"]}></div>
       </div>
     </div>

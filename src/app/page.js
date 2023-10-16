@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import style from './page.module.css'
-import me from '../../public/images/cat.jpg';
+import me from '../../public/images/fromal.jpg';
 import Button from '@/elments/Button/Button';
 import StickManWithCard from '@/elments/StickManWithCard/StickManWithCard'
 
@@ -36,7 +36,6 @@ export default function Home() {
           </p>
           <div className={`flex-mid m-20 ${style.button}`}>
             
-            {/* If 'flex' is a class, add it here */}
             <Button name="Contact Me" href="/contact" />
             <Button name="Know more about me" href="/about" />
           </div>

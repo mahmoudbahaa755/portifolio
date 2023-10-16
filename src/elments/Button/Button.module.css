@@ -10,6 +10,7 @@
   outline: none;
   background: transparent;
   padding: 6px 8px;
+  margin-bottom: 10px;
   text-transform: uppercase;
   color: whitesmoke;
   line-height: 30px; /* Reduce line-height */

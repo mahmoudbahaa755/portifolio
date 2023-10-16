@@ -3,6 +3,13 @@ import style from './page.module.css'
 
 import PersonalInfo from './PersonalInfo';
 import Services from '@/component/Services/Services';
+
+export const metadata = {
+  title: "About",
+  Technology: "some information about me",
+};
+
+
 export default function About() {
     return (
         <div className={style['about-me']}>
@@ -10,9 +17,9 @@ export default function About() {
             </p>
             <h1>About <span className='purple'>Me</span></h1>
             <h2>Who Am <span className='purple'> I ?</span></h2>
-            <p>
+            <p >
                 I am Mahmoud Bahaa Graduated from Computer Science,and I am a passionate <span className='purple'>web developer </span>and 
-                <span className='purple'>software engineer.</span> I work as a freelance web developer and I'm always eager to collaborate on exciting projects.
+                <span className='purple'> software engineer.</span> I work as a freelance web developer and I'm always eager to collaborate on exciting projects.
             </p>
             <div className={style.stickman}>
                 <div className={style.wrongHire}>

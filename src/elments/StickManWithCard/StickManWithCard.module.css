@@ -7,11 +7,11 @@
   background: green;
   border-radius: 2px;
   -ms-transform: rotate(280deg);
-  
+
   -webkit-transform: rotate(20deg);
- 
+
   transform: rotate(280deg);
- 
+
 }
 
 .main {
@@ -70,6 +70,52 @@
   font-size: 22px;
   color: var(--main-color);
   background: whitesmoke;
+}
+
+.card a {
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.card:hover a {
+  color: var(--main-color);
+  animation: textAnimation 1.3s infinite;
+  /* Change to your desired hover color */
+  transform: scale(1.2);
+}
+
+@keyframes textAnimation {
+  0% {
+    transform: scale(1);
+    color: #333;
+  }
+
+  25% {
+    transform: scaley(1.2);
+    color: var(--main-color);
+    /* Change to your desired hover color */
+  }
+
+  50% {
+    transform: scaley(1);
+    color: #333;
+  }
+
+  75% {
+    transform: scalex(1.2);
+    color: var(--main-color);
+
+    /* Change to your desired hover color */
+  }
+
+  100% {
+    transform: scalex(1);
+    color: #333;
+  }
 }
 
 .ra {
@@ -190,5 +236,5 @@
   background: green;
   border-radius: 2px;
   animation: rotateAnimation 2s infinite;
-  
+
 }

@@ -1,6 +1,12 @@
 import style from './page.module.css'; // Import style from 'page.module.css'
 import ContactMail from './contentComponent/ContactMail//ContactMail'
 import ContactInfo from './contentComponent/ContactInfo/ContactInfo';
+
+export const metadata = {
+  title: "Contact me",
+  Technology: "How to contact me",
+};
+
 export default function Contact() {
     return (
         <div >
@@ -12,7 +18,7 @@ export default function Contact() {
 
             <div className={style.grid}>
 
-                <ContactMail />
+                {/* <ContactMail /> */}
 
                 <ContactInfo />
                 

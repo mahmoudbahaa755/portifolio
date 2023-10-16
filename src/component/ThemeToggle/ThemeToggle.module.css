@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    width: 69px;
+    justify-content: space-between;
+
+    padding: 2px;
+    position: fixed;
+    border: 2px solid green;
+    cursor: pointer;
+    left: 500px;
+    /* top: 15px; */
+    direction: ltr;
+    margin: 21px;
+}
+
+.container::after {
+    content: '';
+    width: 3px;
+    height: 25px;
+    position: fixed;
+    background-color: green;
+    z-index: 33;
+    top: 0;
+
+}
+
+.container::before {
+    content: '';
+    width: 3px;
+    left: 581px;
+    height: 25px;
+    background-color: green;
+
+    position: fixed;
+    z-index: 33;
+    top: 0;
+
+}
+
+.icon {
+    font-size: 18px;
+}
+
+.switch {
+    width: 25px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    cursor: pointer;
+
+}

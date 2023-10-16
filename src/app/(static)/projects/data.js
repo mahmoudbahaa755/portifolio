@@ -5,13 +5,13 @@ export const projects = [
     Technology: ["html", "css", "responsive"],
     image: "/images/loanTemplate.png",
     LiveServer: "https:/mahmoudbahaa12.github.io/Loan-Template/",
-    soruceCode: "https://github.com/mahmoudbahaa755/Minx-Template",
+    soruceCode: "https://github.com/mahmoudbahaa12/Loan-Template",
   },
   {
     id: 2,
     name: "Portfolio",
     Technology: ["html", "css", "responsive", "next", "react"],
-    image: "/images/portfolio.png",
+    image: "/images/portofilo.png",
     LiveServer: "https://github.com/mahmoudbahaa755/portifolio",
     soruceCode: "https://portifolio-ten-tawny.vercel.app/",
   },
@@ -31,7 +31,7 @@ export const projects = [
     image: "/images/shopinglist.png",
     LiveServer:
       "https://react-shopping-list-9kn0j19qk-mahmoud-bahaas-projects.vercel.app/",
-    soruceCode: "https://github.com/mahmoudbahaa755/Minx-Template",
+    soruceCode: "https://github.com/mahmoudbahaa755/react-shopping-list",
   },
   {
     id: 5,
@@ -50,7 +50,7 @@ export const projects = [
     soruceCode: "https://github.com/mahmoudbahaa755/to-do-list--React-",
   },
   {
-    id: 6,
+    id: 7,
     name: "Web Scrapping",
     Technology: ["python", "html"],
     image: "/images/wuzzef.png",

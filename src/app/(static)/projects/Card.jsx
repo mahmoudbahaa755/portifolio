@@ -10,7 +10,7 @@ export default function Card({ project }) {
           <ul className={style.icons}>
             {project.Technology.map((tech,id) => (
               <li key={id}>
-                <Image src={skills[tech]} width={40}  height={40} />
+                <Image src={skills [tech]} width={40}  height={40} />
               </li>
             ))}
           </ul>

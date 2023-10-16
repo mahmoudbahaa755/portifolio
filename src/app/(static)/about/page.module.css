@@ -12,6 +12,7 @@
 .stickman{
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .wrongHire{
   margin-top: 20px;
