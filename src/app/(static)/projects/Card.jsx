@@ -1,17 +1,16 @@
 import Image from "next/image";
 import style from "./Card.module.css";
 import Link from "next/link";
-
+import { skills } from "./data";
 export default function Card({ project }) {
-
   return (
     <div className={style["projectCard"]} key={project.id}>
       <div className={style.split}>
         <div>
           <ul className={style.icons}>
-            {project.Technology.map((tech, id) => (
+            {project.Technology.map((tech,id) => (
               <li key={id}>
-                <Image src={`./icons/${tech}.svg`} width={40} height={40} />
+                <Image src={skills[tech]} width={40}  height={40} />
               </li>
             ))}
           </ul>
@@ -27,7 +26,6 @@ export default function Card({ project }) {
             >
               <Image
                 src={project.image}
-                objectFit="cover"
                 priority={false}
                 placeholder="empty"
                 layout="responsive"
@@ -37,7 +35,7 @@ export default function Card({ project }) {
               />
             </Link>
           </div>
-          {/*  */}
+        
           <div className={style["projectDetails"]}>
             <div className={style["studio-button"]}>
               <div className={style["studio-button-icon"]}>
@@ -87,9 +85,7 @@ export default function Card({ project }) {
                 Live
               </Link>
             </div>
-          
           </div>
-          
         </div>
       </div>
     </div>

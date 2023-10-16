@@ -11,7 +11,7 @@ export default function About() {
             <h1>About <span className='purple'>Me</span></h1>
             <h2>Who Am <span className='purple'> I ?</span></h2>
             <p>
-                I am Mahmoud Bahaa, a passionate <span className='purple'>web developer </span>and
+                I am Mahmoud Bahaa Graduated from Computer Science,and I am a passionate <span className='purple'>web developer </span>and 
                 <span className='purple'>software engineer.</span> I work as a freelance web developer and I'm always eager to collaborate on exciting projects.
             </p>
             <div className={style.stickman}>

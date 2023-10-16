@@ -4,13 +4,13 @@ import style from './page.module.css';
 const PersonalInfo = () => {
     const personalInfoData = [
         { label: 'Name', value: 'Mahmoud Bahaa' },
-        { label: 'Age', value: '22' },
-        { label: 'Address', value: 'Cairo, Egypt' },
-        { label: 'Phone', value: '+201010623847' },
-        { label: 'Email', value: 'mahmoudbahaa755@gmail.com' },
-        { label: 'Freelance', value: 'Available' },
-        { label: 'Language', value: 'Arabic, English' },
         { label: 'Graduated from', value: 'Computer Science' },
+        { label: 'Address', value: 'Cairo, Egypt' },
+        { label: 'Freelance', value: 'Available' },
+        { label: 'Email', value: 'mahmoudbahaa755@gmail.com' },
+        { label: 'Phone', value: '+201010623847' },
+        { label: 'Age', value: '22' },
+        { label: 'Language', value: 'Arabic, English' },
     ];
 
     return (

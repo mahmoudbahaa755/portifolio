@@ -7,17 +7,17 @@
   background: green;
   border-radius: 2px;
   -ms-transform: rotate(280deg);
-  /* IE 9 */
+  
   -webkit-transform: rotate(20deg);
-  /* Safari */
+ 
   transform: rotate(280deg);
-  /* Standard syntax */
-
+ 
 }
 
 .main {
   position: relative;
   top: 0;
+  z-index: 100;
   transition: all 1s ease-in-out;
   right: 0;
 }
@@ -190,5 +190,5 @@
   background: green;
   border-radius: 2px;
   animation: rotateAnimation 2s infinite;
-  /* Adjust the duration as needed */
+  
 }
