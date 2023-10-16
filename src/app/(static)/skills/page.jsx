@@ -6,15 +6,15 @@ import Image from 'next/image';
 const skills = [
   {
     title: "HTML",
-    svg: "./icons/html.png",
+    svg: "./icons/html5.svg",
   },
   {
     title: "CSS",
-    svg: "./icons/css.png",
+    svg: "./icons/css3-alt.svg",
   },
   {
     title: "JavaScript",
-    svg: "./icons/js.png",
+    svg: "./icons/square-js.svg",
   },
 
   {
@@ -26,16 +26,18 @@ const skills = [
     title: "Next.js",
     svg: "./icons/nextjs.svg",
   },
-
+  {
+    title: "WordPress",
+    svg: "./icons/wordpress.svg",
+  },
   {
     title: "Python",
     svg: "./icons/python.svg",
   },
   {
-    title: "WordPress",
-    svg: "./icons/wordpress.png",
+    title: "Bootstrap",
+    svg: "./icons/bootstrap.svg",
   },
-
   {
     title: "Firebase",
     svg: "./icons/firebase.svg",
@@ -43,10 +45,6 @@ const skills = [
   {
     title: "SQL",
     svg: "./icons/sql.png",
-  },
-  {
-    title: "Bootstrap",
-    svg: "./icons/bootstrap.svg",
   },
 ];
 export const metadata = {
