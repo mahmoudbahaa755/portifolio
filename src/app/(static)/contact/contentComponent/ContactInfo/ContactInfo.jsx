@@ -34,7 +34,7 @@ export default function ContactInfo() {
             <div className={style['info-details']}>
                 {info.map((item, index) => (
                     <div key={index} className={style['info-icon']}>
-                        <Image src={item.icon} width={w_h} height={w_h} alt={item.title} />
+                        <img className={style.icon} src={item.icon} width={w_h} height={w_h} alt={item.title} />
                         <div>
                             <p className='purple f-bold'>{item.title}</p>
                             <p>{item.mail}</p>
