@@ -3,8 +3,8 @@ import Navbarsmall from '@/component/NavBarsmall/NavBarsmall'
 import style from './MainNav.module.css'
 export default function MainNav(){
     return(
-        <div className={style.laptop}>
-             <div >
+        <div >
+             <div className={style.laptop}>
             <Navbar />
               </div>
           <div className={style.mobile}>
