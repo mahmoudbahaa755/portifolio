@@ -1,7 +1,7 @@
 "use client";
 import { navInfo } from "./data.js";
 import { useState } from "react";
-import style from "./Navbarsmall.module.css";
+import style from "./NavBarsmall.module.css";
 import Image from "next/image";
 import Link from "next/link";
 export default function Navbarsmall() {
