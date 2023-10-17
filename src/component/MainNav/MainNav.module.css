@@ -1,14 +1,14 @@
 .mobile {
-    display: flex;
+    display: none;
 }
 
 
 @media (max-width: 800px) {
     .mobile {
-        display: block;
+        display: flex;
     }
 
-    /* .laptop {
+    .laptop {
         display: none;
-    } */
+    }
 }
