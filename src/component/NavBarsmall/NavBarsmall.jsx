@@ -5,7 +5,7 @@ import style from "./NavBarsmall.module.css";
 import Image from "next/image";
 import Link from "next/link";
 export default function Navbarsmall() {
-  const [activeDiv, setActiveDiv] = useState("");
+  // const [activeDiv, setActiveDiv] = useState("");
   const [buttonType, setButtonType] = useState("X");
   const [isSmallScreen, setSmallScreen] = useState(false);
 
@@ -13,11 +13,10 @@ export default function Navbarsmall() {
     setSmallScreen(!isSmallScreen)
   }
   const closeNavbar = () => {
-    console.log('work')
     setSmallScreen(true);
   }
 const handleButton = () => {
-    if (buttonType === '☰') {
+    if (isSmallScreen===true) {
       setButtonType('X')
     }
     else{
@@ -41,9 +40,7 @@ const handleButton = () => {
             {navInfo.map((item) => (
               <Link
                 href={item.url}
-                className={`${style.navbarlink} ${
-                  item.id === activeDiv ? style.active : ""
-                }`}
+                className={`${style.navbarlink}`}
                 onClick={() => closeNavbar()}
                 key={item.id}
               >

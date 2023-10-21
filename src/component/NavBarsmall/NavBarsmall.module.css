@@ -78,6 +78,7 @@
 
 .name {
     display: none;
+    color: black;
 }
 
 .navbarlink {
@@ -130,9 +131,8 @@
         left: 345px;
         /* display: flex; */
         /* background-color: #ce0000; */
-        opacity: 0.8;
-        width: -moz-fit-content;
-        width: 100vh;
+        opacity: 0.9;
+        width: 160vh;
         display: flex;
         height: 100vh;
         z-index: 1000;
@@ -155,7 +155,8 @@
         width: 60px;
         width: 160px;
         height: 63px;
-        font-weight: bolder;
+        font-weight: 900;
+        color: black;
         justify-content: space-around;
         align-items: center;
         aspect-ratio: 1/1;
@@ -165,7 +166,7 @@
     .navbarlinks {
         display: flex;
         gap: 20px;
-
+        margin-top: 40px;
         flex-direction: column;
         /* Change to a horizontal layout for links */
     }
@@ -174,6 +175,54 @@
         display: block;
     }
 
+    .navbarlink {
+        cursor: pointer;
+        position: relative;
+        border-radius: 10px;
+        display: flex;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        opacity: 1;
+        width: 160px;
+        height: 63px;
+        font-weight: 900;
+        color: black;
+        justify-content: space-around;
+        align-items: center;
+        aspect-ratio: 1/1;
+        background-color: var(--main-color);
+        overflow: hidden;
+    }
+
+    .navbarlink::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: var(--hover-color);
+        /* Color of the "snake" */
+        animation: snake 2s linear infinite;
+        /* Customize animation duration and timing here */
+    }
+
+    @keyframes snake {
+        0% {
+            left: -100%;
+        }
+
+        100% {
+            left: 100%;
+        }
+    }
+
+    .navbarlink:hover::before {
+        left: 0;
+        transition: left 2s linear;
+        /* Customize the transition duration to match the animation duration */
+    }
 
 
     .menu {

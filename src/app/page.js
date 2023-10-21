@@ -23,7 +23,7 @@ export default function Home() {
           <div className="flex-mid">
             <h1 className={style.name}>Mahmoud Bahaa</h1>
             <p className={style.joptitle}>Software Engineer</p>
-
+            
             <SoicalIcons />
           </div>
 
