@@ -1,7 +1,7 @@
 {
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.colorTheme": "Theme Mix",
     "workbench.view.alwaysShowHeaderActions": true,
     "workbench.colorCustomizations": {
         "titleBar.background": "#000000"

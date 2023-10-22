@@ -1,0 +1,932 @@
+{
+  "workspaceFoldersFilePaths": [
+    "d:\\Projects\\web projects\\next js\\personal\\portifolio/"
+  ],
+  "symbols": [
+    {
+      "name": "About()",
+      "kind": 11,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\app\\(static)\\about\\page.jsx",
+      "start": {
+        "line": 12,
+        "character": 0
+      },
+      "end": {
+        "line": 41,
+        "character": 1
+      }
+    },
+    {
+      "name": "AppContext",
+      "kind": 12,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\Context\\AppContext.js",
+      "start": {
+        "line": 3,
+        "character": 6
+      },
+      "end": {
+        "line": 3,
+        "character": 34
+      }
+    },
+    {
+      "name": "AppProvider()",
+      "kind": 11,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\Context\\AppContext.js",
+      "start": {
+        "line": 5,
+        "character": 0
+      },
+      "end": {
+        "line": 13,
+        "character": 1
+      }
+    },
+    {
+      "name": "Button()",
+      "kind": 11,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\elments\\Button\\Button.jsx",
+      "start": {
+        "line": 3,
+        "character": 0
+      },
+      "end": {
+        "line": 11,
+        "character": 1
+      }
+    },
+    {
+      "name": "Card()",
+      "kind": 11,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\app\\(static)\\projects\\Card.jsx",
+      "start": {
+        "line": 4,
+        "character": 0
+      },
+      "end": {
+        "line": 96,
+        "character": 1
+      }
+    },
+    {
+      "name": "Card()",
+      "kind": 11,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\component\\Card\\Card.jsx",
+      "start": {
+        "line": 3,
+        "character": 0
+      },
+      "end": {
+        "line": 42,
+        "character": 1
+      }
+    },
+    {
+      "name": "Circle()",
+      "kind": 11,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\elments\\Circle\\Circle.jsx",
+      "start": {
+        "line": 3,
+        "character": 0
+      },
+      "end": {
+        "line": 31,
+        "character": 1
+      }
+    },
+    {
+      "name": "Contact()",
+      "kind": 11,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\app\\(static)\\contact\\page.jsx",
+      "start": {
+        "line": 9,
+        "character": 0
+      },
+      "end": {
+        "line": 27,
+        "character": 1
+      }
+    },
+    {
+      "name": "ContactInfo()",
+      "kind": 11,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\app\\(static)\\contact\\contentComponent\\ContactInfo\\ContactInfo.jsx",
+      "start": {
+        "line": 4,
+        "character": 0
+      },
+      "end": {
+        "line": 47,
+        "character": 1
+      }
+    },
+    {
+      "name": "ContactMail()",
+      "kind": 11,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\app\\(static)\\contact\\contentComponent\\ContactMail\\ContactMail.jsx",
+      "start": {
+        "line": 2,
+        "character": 0
+      },
+      "end": {
+        "line": 38,
+        "character": 1
+      }
+    },
+    {
+      "name": "Home()",
+      "kind": 11,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\app\\page.js",
+      "start": {
+        "line": 7,
+        "character": 0
+      },
+      "end": {
+        "line": 45,
+        "character": 1
+      }
+    },
+    {
+      "name": "MainNav()",
+      "kind": 11,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\component\\MainNav\\MainNav.jsx",
+      "start": {
+        "line": 3,
+        "character": 0
+      },
+      "end": {
+        "line": 14,
+        "character": 1
+      }
+    },
+    {
+      "name": "Navbar()",
+      "kind": 11,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\component\\NavBar\\Navbar.jsx",
+      "start": {
+        "line": 6,
+        "character": 0
+      },
+      "end": {
+        "line": 50,
+        "character": 1
+      }
+    },
+    {
+      "name": "Navbarsmall()",
+      "kind": 11,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\component\\NavBarsmall\\NavBarsmall.jsx",
+      "start": {
+        "line": 6,
+        "character": 0
+      },
+      "end": {
+        "line": 64,
+        "character": 1
+      }
+    },
+    {
+      "name": "PersonalInfo",
+      "kind": 12,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\app\\(static)\\about\\PersonalInfo.jsx",
+      "start": {
+        "line": 3,
+        "character": 6
+      },
+      "end": {
+        "line": 33,
+        "character": 1
+      }
+    },
+    {
+      "name": "Projects()",
+      "kind": 11,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\app\\(static)\\projects\\page.jsx",
+      "start": {
+        "line": 10,
+        "character": 0
+      },
+      "end": {
+        "line": 30,
+        "character": 1
+      }
+    },
+    {
+      "name": "RootLayout()",
+      "kind": 11,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\app\\layout.js",
+      "start": {
+        "line": 11,
+        "character": 0
+      },
+      "end": {
+        "line": 26,
+        "character": 1
+      }
+    },
+    {
+      "name": "Services()",
+      "kind": 11,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\component\\Services\\Services.jsx",
+      "start": {
+        "line": 3,
+        "character": 0
+      },
+      "end": {
+        "line": 21,
+        "character": 1
+      }
+    },
+    {
+      "name": "Skill()",
+      "kind": 11,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\app\\(static)\\skills\\page.jsx",
+      "start": {
+        "line": 54,
+        "character": 0
+      },
+      "end": {
+        "line": 76,
+        "character": 1
+      }
+    },
+    {
+      "name": "SoicalIcons()",
+      "kind": 11,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\elments\\socialIcons\\socialIcons.jsx",
+      "start": {
+        "line": 4,
+        "character": 0
+      },
+      "end": {
+        "line": 42,
+        "character": 1
+      }
+    },
+    {
+      "name": "SolidPage()",
+      "kind": 11,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\component\\SolidPage\\SolidPage.js",
+      "start": {
+        "line": 2,
+        "character": 0
+      },
+      "end": {
+        "line": 8,
+        "character": 1
+      }
+    },
+    {
+      "name": "StickManWithCard()",
+      "kind": 11,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\elments\\StickManWithCard\\StickManWithCard.jsx",
+      "start": {
+        "line": 5,
+        "character": 0
+      },
+      "end": {
+        "line": 27,
+        "character": 1
+      }
+    },
+    {
+      "name": "Stickman",
+      "kind": 12,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\elments\\StickMan\\StickMan.js",
+      "start": {
+        "line": 2,
+        "character": 6
+      },
+      "end": {
+        "line": 29,
+        "character": 1
+      }
+    },
+    {
+      "name": "ThemeContext",
+      "kind": 12,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\Context\\ThemeContext.js",
+      "start": {
+        "line": 4,
+        "character": 13
+      },
+      "end": {
+        "line": 4,
+        "character": 43
+      }
+    },
+    {
+      "name": "ThemeProvider",
+      "kind": 12,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\Context\\ThemeContext.js",
+      "start": {
+        "line": 6,
+        "character": 13
+      },
+      "end": {
+        "line": 17,
+        "character": 1
+      }
+    },
+    {
+      "name": "ThemeToggle()",
+      "kind": 11,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\component\\ThemeToggle\\ThemeToggle.jsx",
+      "start": {
+        "line": 5,
+        "character": 0
+      },
+      "end": {
+        "line": 17,
+        "character": 1
+      }
+    },
+    {
+      "name": "activeDiv",
+      "kind": 12,
+      "containerName": "Navbar",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\component\\NavBar\\Navbar.jsx",
+      "start": {
+        "line": 7,
+        "character": 9
+      },
+      "end": {
+        "line": 7,
+        "character": 18
+      }
+    },
+    {
+      "name": "buttonType",
+      "kind": 12,
+      "containerName": "Navbarsmall",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\component\\NavBarsmall\\NavBarsmall.jsx",
+      "start": {
+        "line": 8,
+        "character": 9
+      },
+      "end": {
+        "line": 8,
+        "character": 19
+      }
+    },
+    {
+      "name": "closeNavbar",
+      "kind": 12,
+      "containerName": "Navbarsmall",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\component\\NavBarsmall\\NavBarsmall.jsx",
+      "start": {
+        "line": 14,
+        "character": 8
+      },
+      "end": {
+        "line": 16,
+        "character": 3
+      }
+    },
+    {
+      "name": "data",
+      "kind": 12,
+      "containerName": "SoicalIcons",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\elments\\socialIcons\\socialIcons.jsx",
+      "start": {
+        "line": 6,
+        "character": 10
+      },
+      "end": {
+        "line": 31,
+        "character": 5
+      }
+    },
+    {
+      "name": "handleButton",
+      "kind": 12,
+      "containerName": "Navbarsmall",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\component\\NavBarsmall\\NavBarsmall.jsx",
+      "start": {
+        "line": 17,
+        "character": 6
+      },
+      "end": {
+        "line": 25,
+        "character": 3
+      }
+    },
+    {
+      "name": "handleClick",
+      "kind": 12,
+      "containerName": "Navbar",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\component\\NavBar\\Navbar.jsx",
+      "start": {
+        "line": 9,
+        "character": 8
+      },
+      "end": {
+        "line": 11,
+        "character": 3
+      }
+    },
+    {
+      "name": "hoveredIcon",
+      "kind": 12,
+      "containerName": "AppProvider",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\Context\\AppContext.js",
+      "start": {
+        "line": 6,
+        "character": 9
+      },
+      "end": {
+        "line": 6,
+        "character": 20
+      }
+    },
+    {
+      "name": "info",
+      "kind": 12,
+      "containerName": "ContactInfo",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\app\\(static)\\contact\\contentComponent\\ContactInfo\\ContactInfo.jsx",
+      "start": {
+        "line": 5,
+        "character": 10
+      },
+      "end": {
+        "line": 26,
+        "character": 5
+      }
+    },
+    {
+      "name": "inter",
+      "kind": 12,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\app\\layout.js",
+      "start": {
+        "line": 5,
+        "character": 6
+      },
+      "end": {
+        "line": 5,
+        "character": 43
+      }
+    },
+    {
+      "name": "isSmallScreen",
+      "kind": 12,
+      "containerName": "Navbarsmall",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\component\\NavBarsmall\\NavBarsmall.jsx",
+      "start": {
+        "line": 9,
+        "character": 9
+      },
+      "end": {
+        "line": 9,
+        "character": 22
+      }
+    },
+    {
+      "name": "metadata",
+      "kind": 12,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\app\\(static)\\about\\page.jsx",
+      "start": {
+        "line": 6,
+        "character": 13
+      },
+      "end": {
+        "line": 9,
+        "character": 1
+      }
+    },
+    {
+      "name": "metadata",
+      "kind": 12,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\app\\(static)\\contact\\page.jsx",
+      "start": {
+        "line": 4,
+        "character": 13
+      },
+      "end": {
+        "line": 7,
+        "character": 1
+      }
+    },
+    {
+      "name": "metadata",
+      "kind": 12,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\app\\(static)\\projects\\page.jsx",
+      "start": {
+        "line": 5,
+        "character": 13
+      },
+      "end": {
+        "line": 8,
+        "character": 1
+      }
+    },
+    {
+      "name": "metadata",
+      "kind": 12,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\app\\(static)\\skills\\page.jsx",
+      "start": {
+        "line": 49,
+        "character": 13
+      },
+      "end": {
+        "line": 52,
+        "character": 1
+      }
+    },
+    {
+      "name": "metadata",
+      "kind": 12,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\app\\layout.js",
+      "start": {
+        "line": 6,
+        "character": 13
+      },
+      "end": {
+        "line": 9,
+        "character": 1
+      }
+    },
+    {
+      "name": "mode",
+      "kind": 12,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\Context\\ThemeContext.js",
+      "start": {
+        "line": 7,
+        "character": 9
+      },
+      "end": {
+        "line": 7,
+        "character": 13
+      }
+    },
+    {
+      "name": "mode",
+      "kind": 12,
+      "containerName": "ThemeToggle",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\component\\ThemeToggle\\ThemeToggle.jsx",
+      "start": {
+        "line": 6,
+        "character": 10
+      },
+      "end": {
+        "line": 6,
+        "character": 14
+      }
+    },
+    {
+      "name": "navInfo",
+      "kind": 12,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\component\\NavBar\\data.js",
+      "start": {
+        "line": 0,
+        "character": 13
+      },
+      "end": {
+        "line": 30,
+        "character": 1
+      }
+    },
+    {
+      "name": "navInfo",
+      "kind": 12,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\component\\NavBarsmall\\data.js",
+      "start": {
+        "line": 0,
+        "character": 13
+      },
+      "end": {
+        "line": 30,
+        "character": 1
+      }
+    },
+    {
+      "name": "nextConfig",
+      "kind": 12,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\next.config.js",
+      "start": {
+        "line": 1,
+        "character": 6
+      },
+      "end": {
+        "line": 13,
+        "character": 1
+      }
+    },
+    {
+      "name": "personalInfoData",
+      "kind": 12,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\app\\(static)\\about\\PersonalInfo.jsx",
+      "start": {
+        "line": 4,
+        "character": 10
+      },
+      "end": {
+        "line": 13,
+        "character": 5
+      }
+    },
+    {
+      "name": "projects",
+      "kind": 12,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\app\\(static)\\projects\\data.js",
+      "start": {
+        "line": 0,
+        "character": 13
+      },
+      "end": {
+        "line": 69,
+        "character": 1
+      }
+    },
+    {
+      "name": "services",
+      "kind": 12,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\component\\Services\\data.js",
+      "start": {
+        "line": 0,
+        "character": 13
+      },
+      "end": {
+        "line": 25,
+        "character": 1
+      }
+    },
+    {
+      "name": "setActiveDiv",
+      "kind": 12,
+      "containerName": "Navbar",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\component\\NavBar\\Navbar.jsx",
+      "start": {
+        "line": 7,
+        "character": 20
+      },
+      "end": {
+        "line": 7,
+        "character": 32
+      }
+    },
+    {
+      "name": "setButtonType",
+      "kind": 12,
+      "containerName": "Navbarsmall",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\component\\NavBarsmall\\NavBarsmall.jsx",
+      "start": {
+        "line": 8,
+        "character": 21
+      },
+      "end": {
+        "line": 8,
+        "character": 34
+      }
+    },
+    {
+      "name": "setHoveredIcon",
+      "kind": 12,
+      "containerName": "AppProvider",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\Context\\AppContext.js",
+      "start": {
+        "line": 6,
+        "character": 22
+      },
+      "end": {
+        "line": 6,
+        "character": 36
+      }
+    },
+    {
+      "name": "setMode",
+      "kind": 12,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\Context\\ThemeContext.js",
+      "start": {
+        "line": 7,
+        "character": 15
+      },
+      "end": {
+        "line": 7,
+        "character": 22
+      }
+    },
+    {
+      "name": "setSmallScreen",
+      "kind": 12,
+      "containerName": "Navbarsmall",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\component\\NavBarsmall\\NavBarsmall.jsx",
+      "start": {
+        "line": 9,
+        "character": 24
+      },
+      "end": {
+        "line": 9,
+        "character": 38
+      }
+    },
+    {
+      "name": "skills",
+      "kind": 12,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\app\\(static)\\projects\\data.js",
+      "start": {
+        "line": 71,
+        "character": 13
+      },
+      "end": {
+        "line": 81,
+        "character": 1
+      }
+    },
+    {
+      "name": "skills",
+      "kind": 12,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\app\\(static)\\skills\\page.jsx",
+      "start": {
+        "line": 5,
+        "character": 6
+      },
+      "end": {
+        "line": 48,
+        "character": 1
+      }
+    },
+    {
+      "name": "toggle",
+      "kind": 12,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\Context\\ThemeContext.js",
+      "start": {
+        "line": 9,
+        "character": 8
+      },
+      "end": {
+        "line": 11,
+        "character": 3
+      }
+    },
+    {
+      "name": "toggle",
+      "kind": 12,
+      "containerName": "ThemeToggle",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\component\\ThemeToggle\\ThemeToggle.jsx",
+      "start": {
+        "line": 6,
+        "character": 16
+      },
+      "end": {
+        "line": 6,
+        "character": 22
+      }
+    },
+    {
+      "name": "toggleNavbar",
+      "kind": 12,
+      "containerName": "Navbarsmall",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\component\\NavBarsmall\\NavBarsmall.jsx",
+      "start": {
+        "line": 11,
+        "character": 8
+      },
+      "end": {
+        "line": 13,
+        "character": 3
+      }
+    },
+    {
+      "name": "useAppContext()",
+      "kind": 11,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\Context\\AppContext.js",
+      "start": {
+        "line": 15,
+        "character": 0
+      },
+      "end": {
+        "line": 17,
+        "character": 1
+      }
+    },
+    {
+      "name": "w_h",
+      "kind": 12,
+      "containerName": "ContactInfo",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\app\\(static)\\contact\\contentComponent\\ContactInfo\\ContactInfo.jsx",
+      "start": {
+        "line": 27,
+        "character": 10
+      },
+      "end": {
+        "line": 27,
+        "character": 16
+      }
+    },
+    {
+      "name": "w_h",
+      "kind": 12,
+      "containerName": "SoicalIcons",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\elments\\socialIcons\\socialIcons.jsx",
+      "start": {
+        "line": 5,
+        "character": 10
+      },
+      "end": {
+        "line": 5,
+        "character": 16
+      }
+    },
+    {
+      "name": "webpack()",
+      "kind": 5,
+      "containerName": "",
+      "filePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\next.config.js",
+      "start": {
+        "line": 4,
+        "character": 2
+      },
+      "end": {
+        "line": 12,
+        "character": 3
+      }
+    }
+  ],
+  "activeFileDiagnostics": [],
+  "activeTextEditor": {
+    "selections": [
+      {
+        "anchor": {
+          "line": 235,
+          "character": 0
+        },
+        "active": {
+          "line": 235,
+          "character": 0
+        },
+        "isReversed": true
+      }
+    ],
+    "documentFilePath": "d:\\Projects\\web projects\\next js\\personal\\portifolio\\src\\app\\(static)\\projects\\Card.module.css",
+    "visibleRanges": [
+      {
+        "start": {
+          "line": 146,
+          "character": 0
+        },
+        "end": {
+          "line": 168,
+          "character": 22
+        }
+      }
+    ],
+    "languageId": "css"
+  },
+  "debugConsoleOutput": "",
+  "terminalBuffer": " ✓ Compiled in 462ms (327 modules)\r\n\n\nImage with src \"/images/toDoList.png\" has legacy prop \"layout\". Did you forget to run the cod\r\ndemod?\r\nRead more: https://nextjs.org/docs/messages/next-image-upgrade-to-13\r\n\nWarning: Invalid DOM property `stroke-width`. Did you mean `strokeWidth`?\r\n    at svg\r\n    at div\r\n    at div\r\n    at div\r\n    at div\r\n    at div\r\n    at div\r\n    at div\r\n    at div\r\n    at InnerLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/component\r\nts/layout-router.js:240:11)\r\n    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/redirect-boundary.js:71:9)\r\n    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components\r\ns/redirect-boundary.js:79:11)\r\n    at NotFoundBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components\r\ns/not-found-boundary.js:62:11)\r\n    at LoadingBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/\r\n/layout-router.js:336:11)\r\n    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/er\r\nrror-boundary.js:109:11)\r\n    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/\r\n/components/layout-router.js:152:9)\r\n    at ScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/layout-router.js:227:11)\r\n    at RenderFromTemplateContext (webpack-internal:///(ssr)/./node_modules/next/dist/client/c\r\ncomponents/render-from-template-context.js:15:44)\r\n    at Lazy\r\n    at OuterLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/component\r\nts/layout-router.js:345:11)\r\n    at Lazy\r\n    at InnerLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/component\r\nts/layout-router.js:240:11)\r\n    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/redirect-boundary.js:71:9)\r\n    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components\r\ns/redirect-boundary.js:79:11)\r\n    at NotFoundErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/not-found-boundary.js:54:9)\r\n    at NotFoundBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components\r\ns/not-found-boundary.js:62:11)\r\n    at LoadingBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/\r\n/layout-router.js:336:11)\r\n    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/er\r\nrror-boundary.js:109:11)\r\n    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/\r\n/components/layout-router.js:152:9)\r\n    at ScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/layout-router.js:227:11)\r\n    at RenderFromTemplateContext (webpack-internal:///(ssr)/./node_modules/next/dist/client/c\r\ncomponents/render-from-template-context.js:15:44)\r\n    at Lazy\r\n    at OuterLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/component\r\nts/layout-router.js:345:11)\r\n    at Lazy\r\n    at InnerLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/component\r\nts/layout-router.js:240:11)\r\n    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/redirect-boundary.js:71:9)\r\n    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components\r\ns/redirect-boundary.js:79:11)\r\n    at NotFoundErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\n\r\nonents/not-found-boundary.js:54:9)\r\n    at NotFoundBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components\r\ns/not-found-boundary.js:62:11)\r\n    at LoadingBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/\r\n/layout-router.js:336:11)\r\n    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/er\r\nrror-boundary.js:109:11)\r\n    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/\r\n/components/layout-router.js:152:9)\r\n    at ScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/layout-router.js:227:11)\r\n    at RenderFromTemplateContext (webpack-internal:///(ssr)/./node_modules/next/dist/client/c\r\ncomponents/render-from-template-context.js:15:44)\r\n    at Lazy\r\n    at OuterLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/component\r\nts/layout-router.js:345:11)\r\n    at Lazy\r\n    at div\r\n    at AppProvider (webpack-internal:///(ssr)/./src/Context/AppContext.js:13:24)\r\n    at Lazy\r\n    at div\r\n    at body\r\n    at html\r\n    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/redirect-boundary.js:71:9)\r\n    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components\r\ns/redirect-boundary.js:79:11)\r\n    at ReactDevOverlay (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/\r\n/react-dev-overlay/internal/ReactDevOverlay.js:66:9)\r\n    at HotReload (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/react-\r\n-dev-overlay/hot-reloader-client.js:295:11)\r\n    at Router (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/app-route\r\ner.js:154:11)\r\n    at ErrorBoundaryHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/compon\r\nnents/error-boundary.js:82:9)\r\n    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/er\r\nrror-boundary.js:109:11)\r\n    at AppRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/app-ro\r\nouter.js:426:13)\r\n    at Lazy\r\n    at Lazy\r\n    at D:\\Projects\\web projects\\next js\\personal\\portifolio\\node_modules\\next\\dist\\compiled\\n\r\nnext-server\\app-page.runtime.dev.js:11:392579\r\n    at D:\\Projects\\web projects\\next js\\personal\\portifolio\\node_modules\\next\\dist\\compiled\\n\r\nnext-server\\app-page.runtime.dev.js:11:392579\r\n    at ServerInsertedHTMLProvider (D:\\Projects\\web projects\\next js\\personal\\portifolio\\node_\r\n_modules\\next\\dist\\compiled\\next-server\\app-page.runtime.dev.js:13:26065)\r\nWarning: Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`?\r\n    at svg\r\n    at div\r\n    at div\r\n    at div\r\n    at div\r\n    at div\r\n    at div\r\n    at div\r\n    at div\r\n    at InnerLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/component\r\nts/layout-router.js:240:11)\r\n    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/redirect-boundary.js:71:9)\r\n    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components\r\ns/redirect-boundary.js:79:11)\r\n    at NotFoundBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components\r\ns/not-found-boundary.js:62:11)\r\n    at LoadingBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/\r\n/layout-router.js:336:11)\r\n    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/er\r\nrror-boundary.js:109:11)\r\n    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/\r\n/components/layout-router.js:152:9)\r\n    at ScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/layout-router.js:227:11)\r\n    at RenderFromTemplateContext (webpack-internal:///(ssr)/./node_modules/next/dist/client/c\r\ncomponents/render-from-template-context.js:15:44)\r\n    at Lazy\r\n    at OuterLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/component\r\nts/layout-router.js:345:11)\r\n    at Lazy\r\n    at InnerLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/component\r\nts/layout-router.js:240:11)\r\n    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/redirect-boundary.js:71:9)\r\n    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components\r\ns/redirect-boundary.js:79:11)\r\n    at NotFoundErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/not-found-boundary.js:54:9)\r\n    at NotFoundBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components\r\ns/not-found-boundary.js:62:11)\r\n    at LoadingBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/\r\n/layout-router.js:336:11)\r\n    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/er\r\nrror-boundary.js:109:11)\r\n    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/\r\n/components/layout-router.js:152:9)\r\n    at ScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/layout-router.js:227:11)\r\n    at RenderFromTemplateContext (webpack-internal:///(ssr)/./node_modules/next/dist/client/c\r\ncomponents/render-from-template-context.js:15:44)\r\n    at Lazy\r\n    at OuterLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/component\r\nts/layout-router.js:345:11)\r\n    at Lazy\r\n    at InnerLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/component\r\nts/layout-router.js:240:11)\r\n    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/redirect-boundary.js:71:9)\r\n    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components\r\ns/redirect-boundary.js:79:11)\r\n    at NotFoundErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/not-found-boundary.js:54:9)\r\n    at NotFoundBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components\r\ns/not-found-boundary.js:62:11)\r\n    at LoadingBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/\r\n/layout-router.js:336:11)\r\n    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/er\r\nrror-boundary.js:109:11)\r\n    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/\r\n/components/layout-router.js:152:9)\r\n    at ScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/layout-router.js:227:11)\r\n    at RenderFromTemplateContext (webpack-internal:///(ssr)/./node_modules/next/dist/client/c\r\ncomponents/render-from-template-context.js:15:44)\r\n    at Lazy\r\n    at OuterLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/component\r\nts/layout-router.js:345:11)\r\n    at Lazy\r\n    at div\r\n    at AppProvider (webpack-internal:///(ssr)/./src/Context/AppContext.js:13:24)\r\n    at Lazy\r\n    at div\r\n    at body\r\n    at html\r\n    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/redirect-boundary.js:71:9)\r\n    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components\r\ns/redirect-boundary.js:79:11)\r\n    at ReactDevOverlay (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/\r\n/react-dev-overlay/internal/ReactDevOverlay.js:66:9)\r\n    at HotReload (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/react-\r\n-dev-overlay/hot-reloader-client.js:295:11)\r\n    at Router (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/app-route\r\ner.js:154:11)\r\n    at ErrorBoundaryHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/compon\r\nnents/error-boundary.js:82:9)\r\n    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/er\r\nrror-boundary.js:109:11)\r\n    at AppRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/app-ro\r\nouter.js:426:13)\r\n    at Lazy\r\n    at Lazy\r\n\n    at D:\\Projects\\web projects\\next js\\personal\\portifolio\\node_modules\\next\\dist\\compiled\\n\r\nnext-server\\app-page.runtime.dev.js:11:392579\r\n    at D:\\Projects\\web projects\\next js\\personal\\portifolio\\node_modules\\next\\dist\\compiled\\n\r\nnext-server\\app-page.runtime.dev.js:11:392579\r\n    at ServerInsertedHTMLProvider (D:\\Projects\\web projects\\next js\\personal\\portifolio\\node_\r\n_modules\\next\\dist\\compiled\\next-server\\app-page.runtime.dev.js:13:26065)\r\nWarning: Invalid DOM property `stroke-linejoin`. Did you mean `strokeLinejoin`?\r\n    at svg\r\n    at div\r\n    at div\r\n    at div\r\n    at div\r\n    at div\r\n    at div\r\n    at div\r\n    at div\r\n    at InnerLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/component\r\nts/layout-router.js:240:11)\r\n    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/redirect-boundary.js:71:9)\r\n    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components\r\ns/redirect-boundary.js:79:11)\r\n    at NotFoundBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components\r\ns/not-found-boundary.js:62:11)\r\n    at LoadingBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/\r\n/layout-router.js:336:11)\r\n    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/er\r\nrror-boundary.js:109:11)\r\n    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/\r\n/components/layout-router.js:152:9)\r\n    at ScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/layout-router.js:227:11)\r\n    at RenderFromTemplateContext (webpack-internal:///(ssr)/./node_modules/next/dist/client/c\r\ncomponents/render-from-template-context.js:15:44)\r\n    at Lazy\r\n    at OuterLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/component\r\nts/layout-router.js:345:11)\r\n    at Lazy\r\n    at InnerLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/component\r\nts/layout-router.js:240:11)\r\n    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/redirect-boundary.js:71:9)\r\n    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components\r\ns/redirect-boundary.js:79:11)\r\n    at NotFoundErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/not-found-boundary.js:54:9)\r\n    at NotFoundBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components\r\ns/not-found-boundary.js:62:11)\r\n    at LoadingBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/\r\n/layout-router.js:336:11)\r\n    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/er\r\nrror-boundary.js:109:11)\r\n    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/\r\n/components/layout-router.js:152:9)\r\n    at ScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/layout-router.js:227:11)\r\n    at RenderFromTemplateContext (webpack-internal:///(ssr)/./node_modules/next/dist/client/c\r\ncomponents/render-from-template-context.js:15:44)\r\n    at Lazy\r\n    at OuterLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/component\r\nts/layout-router.js:345:11)\r\n    at Lazy\r\n    at InnerLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/component\r\nts/layout-router.js:240:11)\r\n    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/redirect-boundary.js:71:9)\r\n    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components\r\ns/redirect-boundary.js:79:11)\r\n    at NotFoundErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/not-found-boundary.js:54:9)\r\n    at NotFoundBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components\r\ns/not-found-boundary.js:62:11)\r\n    at LoadingBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/\r\n/layout-router.js:336:11)\r\n    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/er\r\nrror-boundary.js:109:11)\r\n    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/\r\n/components/layout-router.js:152:9)\r\n    at ScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/layout-router.js:227:11)\r\n    at RenderFromTemplateContext (webpack-internal:///(ssr)/./node_modules/next/dist/client/c\r\ncomponents/render-from-template-context.js:15:44)\r\n    at Lazy\r\n    at OuterLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/component\r\nts/layout-router.js:345:11)\r\n    at Lazy\r\n    at div\r\n    at AppProvider (webpack-internal:///(ssr)/./src/Context/AppContext.js:13:24)\r\n    at Lazy\r\n    at div\r\n    at body\r\n    at html\r\n    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/compo\r\nonents/redirect-boundary.js:71:9)\r\n    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components\r\ns/redirect-boundary.js:79:11)\r\n    at ReactDevOverlay (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/\r\n/react-dev-overlay/internal/ReactDevOverlay.js:66:9)\r\n    at HotReload (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/react-\r\n-dev-overlay/hot-reloader-client.js:295:11)\r\n    at Router (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/app-route\r\ner.js:154:11)\r\n    at ErrorBoundaryHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/compon\r\nnents/error-boundary.js:82:9)\r\n    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/er\r\nrror-boundary.js:109:11)\r\n    at AppRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/app-ro\r\nouter.js:426:13)\r\n    at Lazy\r\n    at Lazy\r\n    at D:\\Projects\\web projects\\next js\\personal\\portifolio\\node_modules\\next\\dist\\compiled\\n\r\nnext-server\\app-page.runtime.dev.js:11:392579\r\n    at D:\\Projects\\web projects\\next js\\personal\\portifolio\\node_modules\\next\\dist\\compiled\\n\r\nnext-server\\app-page.runtime.dev.js:11:392579\r\n    at ServerInsertedHTMLProvider (D:\\Projects\\web projects\\next js\\personal\\portifolio\\node_\r\n_modules\\next\\dist\\compiled\\next-server\\app-page.runtime.dev.js:13:26065)\r\n\nImage with src \"/images/portofilo.png\" has legacy prop \"layout\". Did you forget to run the co\r\nodemod?\r\nRead more: https://nextjs.org/docs/messages/next-image-upgrade-to-13\r\nImage with src \"/images/Restaurant.png\" has legacy prop \"layout\". Did you forget to run the c\r\ncodemod?\r\nRead more: https://nextjs.org/docs/messages/next-image-upgrade-to-13\r\nImage with src \"/images/restrount.png\" has legacy prop \"layout\". Did you forget to run the co\r\nodemod?\r\nRead more: https://nextjs.org/docs/messages/next-image-upgrade-to-13\r\nImage with src \"/images/shopinglist.png\" has legacy prop \"layout\". Did you forget to run the \n\r\n codemod?\r\nRead more: https://nextjs.org/docs/messages/next-image-upgrade-to-13\r\nImage with src \"/images/loanTemplate.png\" has legacy prop \"layout\". Did you forget to run the\r\ne codemod?\r\nRead more: https://nextjs.org/docs/messages/next-image-upgrade-to-13\r\n\nImage with src \"/images/minx.png\" has legacy prop \"layout\". Did you forget to run the codemod\r\nd?\r\nRead more: https://nextjs.org/docs/messages/next-image-upgrade-to-13\r\nImage with src \"/images/wuzzef.png\" has legacy prop \"layout\". Did you forget to run the codem\r\nmod?\r\nRead more: https://nextjs.org/docs/messages/next-image-upgrade-to-13\r\n\n ✓ Compiled /favicon.ico/route in 300ms (357 modules)\r\n\n\nImage with src \"/images/loanTemplate.png\" has legacy prop \"layout\". Did you forget to run the codemod?\r\nRead more: https://nextjs.org/docs/messages/next-image-upgrade-to-13\r\nImage with src \"/images/minx.png\" has legacy prop \"layout\". Did you forget to run the codemod?\r\nRead more: https://nextjs.org/docs/messages/next-image-upgrade-to-13\r\nImage with src \"/images/wuzzef.png\" has legacy prop \"layout\". Did you forget to run the codemod?\r\nRead more: https://nextjs.org/docs/messages/next-image-upgrade-to-13\r\n ✓ Compiled /favicon.ico/route in 300ms (357 modules)\r\n\nRead more: https://nextjs.org/docs/messages/next-image-upgrade-to-13\r\nImage with src \"/images/minx.png\" has legacy prop \"layout\". Did you forget to run the codemod?\r\nRead more: https://nextjs.org/docs/messages/next-image-upgrade-to-13\r\nImage with src \"/images/wuzzef.png\" has legacy prop \"layout\". Did you forget to run the codemod?\r\nRead more: https://nextjs.org/docs/messages/next-image-upgrade-to-13\r\n ✓ Compiled /favicon.ico/route in 300ms (357 modules)\r\n",
+  "terminalSelection": "",
+  "repoContext": {
+    "name": "main",
+    "headBranchName": "main",
+    "upstreamBranchName": "main",
+    "isRebasing": true,
+    "remotes": [
+      "origin"
+    ]
+  },
+  "notebookDocumentFilePaths": []
+}
