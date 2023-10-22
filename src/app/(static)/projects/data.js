@@ -1,13 +1,13 @@
-export const projects = [
-  {
-    id: 1,
-    name: "Loan Template",
-    Technology: ["html", "css", "responsive"],
-    image: "/images/loanTemplate.png",
-    LiveServer: "https:/mahmoudbahaa12.github.io/Loan-Template/",
-    soruceCode: "https://github.com/mahmoudbahaa12/Loan-Template",
+export const projects = [ {
+    id: 6,
+    name: "To Do List",
+    Technology: ["html", "css", "react", "firebase", "responsive"],
+    image: "/images/toDoList.png",
+    LiveServer: "https://to-do-list-react-nu-coral.vercel.app/",
+    soruceCode: "https://github.com/mahmoudbahaa755/to-do-list--React-",
   },
-  {
+ 
+   {
     id: 2,
     name: "Portfolio",
     Technology: ["html", "css", "responsive", "next", "react"],
@@ -15,6 +15,15 @@ export const projects = [
     LiveServer: "https://github.com/mahmoudbahaa755/portifolio",
     soruceCode: "https://portifolio-ten-tawny.vercel.app/",
   },
+  {
+    id: 8,
+    name: "Restaurant Menu",
+    Technology: ["html", "css", "react",'firebase', "responsive"],
+    image: "/images/Restaurant.png",
+    LiveServer: "https://restaurant-react-pi.vercel.app/",
+    soruceCode: "https://github.com/mahmoudbahaa755/Restaurant-react",
+  },
+ 
   {
     id: 3,
     name: "Italino Restaurant",
@@ -32,6 +41,13 @@ export const projects = [
     LiveServer:
       "https://react-shopping-list-9kn0j19qk-mahmoud-bahaas-projects.vercel.app/",
     soruceCode: "https://github.com/mahmoudbahaa755/react-shopping-list",
+  }, {
+    id: 1,
+    name: "Loan Template",
+    Technology: ["html", "css", "responsive"],
+    image: "/images/loanTemplate.png",
+    LiveServer: "https:/mahmoudbahaa12.github.io/Loan-Template/",
+    soruceCode: "https://github.com/mahmoudbahaa12/Loan-Template",
   },
   {
     id: 5,
@@ -41,14 +57,7 @@ export const projects = [
     LiveServer: "https://template-3-eight.vercel.app/",
     soruceCode: "https://github.com/mahmoudbahaa755/Minx-Template",
   },
-  {
-    id: 6,
-    name: "To Do List",
-    Technology: ["html", "css", "react", "firebase", "responsive"],
-    image: "/images/toDoList.png",
-    LiveServer: "https://to-do-list-react-nu-coral.vercel.app/",
-    soruceCode: "https://github.com/mahmoudbahaa755/to-do-list--React-",
-  },
+ 
   {
     id: 7,
     name: "Web Scrapping",
@@ -57,14 +66,7 @@ export const projects = [
     LiveServer: "https://github.com/mahmoudbahaa755/web-scrapping-wuzzef-",
     soruceCode: "https://github.com/mahmoudbahaa755/web-scrapping-wuzzef-",
   },
-  {
-    id: 8,
-    name: "Restaurant Menu",
-    Technology: ["html", "css", "react", "responsive"],
-    image: "/images/Restaurant.png",
-    LiveServer: "https://restaurant-react-pi.vercel.app/",
-    soruceCode: "https://github.com/mahmoudbahaa755/Restaurant-react",
-  },
+  
 ];
 
 export const skills = {

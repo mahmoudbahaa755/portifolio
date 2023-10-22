@@ -13,18 +13,20 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 20px;
-  transition: all 0.4  ease-in-out;
+  transition: all 0.4 ease-in-out;
 }
-.svg{
+
+.svg {
   fill: green;
   background-color: green;
 }
+
 .skill {
   background-color: #fff;
   border: 1px solid #e0e0e0;
   border-radius: 5px;
   padding: 20px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 5px rgba(4, 145, 28, 0.556);
   transition: transform 0.2s;
   cursor: pointer;
 }
@@ -33,17 +35,19 @@
   transition: all 0.5s ease-in-out;
 }
 
-  .skill:hover {
-   transform: translateY(-5px) rotate(-2deg)  scale(1.05);
-    color: #bebcbc;
-    font-weight: 800;
-    color: var(--main-color);
-    box-shadow: 0px 9px 20px 0px rgba(116, 28, 116, 0.2);
-  }
-.skill:hover h2{
-   
-    color: var(--main-color);
-  }
+.skill:hover {
+  animation: translateBox 2s linear infinite;
+  color: #bebcbc;
+  font-weight: 800;
+  color: var(--main-color);
+  box-shadow: 0px 9px 20px 0px rgba(13, 144, 50, 0.334);
+}
+
+.skill:hover h2 {
+
+  color: var(--main-color);
+}
+
 .skill h2 {
   font-size: 24px;
   margin: 0 0 10px 0;
@@ -54,4 +58,26 @@
   font-size: 16px;
   line-height: 1.5;
   color: #666;
+}
+
+@keyframes translateBox {
+  0% {
+    transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  /* 25% {
+    transform: rotateY(0deg) rotateX(20deg);
+  } */
+
+  50% {
+    transform: rotateY(20deg) rotateX(20deg);
+  }
+
+  /* 75% {
+    transform: rotateY(20deg) rotateX(0deg);
+  } */
+
+  100% {
+    transform: rotateY(0deg) rotateX(0deg);
+  }
 }
