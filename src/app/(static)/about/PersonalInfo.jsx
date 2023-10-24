@@ -8,8 +8,8 @@ const PersonalInfo = () => {
         { label: 'Address', value: 'Cairo, Egypt' },
         { label: 'Freelance', value: 'Available' },
         { label: 'Email', value: 'mahmoudbahaa755@gmail.com' },
-        { label: 'Phone', value: '+201010623847' },
         { label: 'Age', value: '22' },
+        { label: 'Phone', value: '+201010623847' },
         { label: 'Language', value: 'Arabic, English' },
     ];
 
@@ -22,7 +22,8 @@ const PersonalInfo = () => {
                 <ul>
                     {personalInfoData.map((item, index) => (
                         <li key={index}>
-                            <span className='purple'>{item.label}:</span> <span className='small f-bold'>
+                            <span className='purple'>{item.label}: </span>
+                             <span className='small f-bold'>
                                 {item.value}
                                 </span>
                         </li>

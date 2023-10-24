@@ -35,6 +35,9 @@ const skills = [
     svg: "./icons/python.svg",
   },
   {
+    title: "TailWind CSS",
+    svg: "./images/tailwind.png",
+  },{
     title: "Bootstrap",
     svg: "./icons/bootstrap.svg",
   },

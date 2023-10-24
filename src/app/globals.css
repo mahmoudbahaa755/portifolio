@@ -61,7 +61,7 @@ body {
 .small {
   color: var(--side-font);
   text-align: center;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   margin-bottom: 8px;
 }
 

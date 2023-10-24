@@ -20,7 +20,7 @@ export const services = [
     imageSrc: "/icons/responsive.png",
   },
   {
-    title: "Devolopment",
+    title: "Development",
     imageSrc: "/icons/coding2.png",
   },
 ];
