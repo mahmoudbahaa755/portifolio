@@ -1,7 +1,7 @@
 {
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "workbench.colorTheme": "Theme Mix",
+    "workbench.colorTheme": "XD Theme",
     "workbench.view.alwaysShowHeaderActions": true,
     "workbench.colorCustomizations": {
         "titleBar.background": "#000000"

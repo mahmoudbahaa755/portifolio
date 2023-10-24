@@ -6,8 +6,8 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Navbarsmall() {
   // const [activeDiv, setActiveDiv] = useState("");
-  const [buttonType, setButtonType] = useState("X");
-  const [isSmallScreen, setSmallScreen] = useState(false);
+  const [buttonType, setButtonType] = useState("☰");
+  const [isSmallScreen, setSmallScreen] = useState(true);
 
   const toggleNavbar = () => {
     setSmallScreen(!isSmallScreen)
@@ -17,7 +17,7 @@ export default function Navbarsmall() {
   }
 const handleButton = () => {
     if (isSmallScreen===true) {
-      setButtonType('X')
+      setButtonType('☰')
     }
     else{
       setButtonType('☰')
@@ -27,6 +27,9 @@ const handleButton = () => {
 
   return (
     <div>
+      <div>
+        
+      </div>
      <div onClick={() => { toggleNavbar(); handleButton(); }} className={style.menu}>
   {buttonType}
 </div>
