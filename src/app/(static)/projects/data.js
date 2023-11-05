@@ -20,7 +20,7 @@ export const projects = [ {
     name: "Restaurant Menu",
     Technology: ["html", "css", "react",'firebase', "responsive"],
     image: "/images/Restaurant.png",
-    LiveServer: "https://restaurant-react-pi.vercel.app/",
+    LiveServer: "https://restaurant-react-lip8hvqbn-mahmoud-bahaas-projects.vercel.app/",
     soruceCode: "https://github.com/mahmoudbahaa755/Restaurant-react",
   },
  
