@@ -1,4 +1,5 @@
-export const projects = [ {
+export const projects = [
+  {
     id: 6,
     name: "To Do List",
     Technology: ["html", "css", "react", "firebase", "responsive"],
@@ -6,8 +7,8 @@ export const projects = [ {
     LiveServer: "https://to-do-list-react-nu-coral.vercel.app/",
     soruceCode: "https://github.com/mahmoudbahaa755/to-do-list--React-",
   },
- 
-   {
+
+  {
     id: 2,
     name: "Portfolio",
     Technology: ["html", "css", "responsive", "next", "react"],
@@ -18,12 +19,13 @@ export const projects = [ {
   {
     id: 8,
     name: "Restaurant Menu",
-    Technology: ["html", "css", "react",'firebase', "responsive"],
+    Technology: ["html", "css", "react", "firebase", "responsive"],
     image: "/images/Restaurant.png",
-    LiveServer: "https://restaurant-react-lip8hvqbn-mahmoud-bahaas-projects.vercel.app/",
+    LiveServer:
+      "https://restaurant-react-lip8hvqbn-mahmoud-bahaas-projects.vercel.app/",
     soruceCode: "https://github.com/mahmoudbahaa755/Restaurant-react",
   },
- 
+
   {
     id: 3,
     name: "Italino Restaurant",
@@ -34,6 +36,14 @@ export const projects = [ {
     soruceCode: "https://github.com/mahmoudbahaa755/restaurant-web-site",
   },
   {
+    id: 9,
+    name: "Form Page",
+    Technology: ["html", "css", "react",  "mui", "responsive"],
+    image: "/images/formPage.png",
+    LiveServer: "https://form-three-snowy.vercel.app/",
+    soruceCode: "https://github.com/mahmoudbahaa755/Form",
+  },
+  {
     id: 4,
     name: "Shopping List",
     Technology: ["html", "css", "react", "responsive"],
@@ -41,7 +51,8 @@ export const projects = [ {
     LiveServer:
       "https://react-shopping-list-9kn0j19qk-mahmoud-bahaas-projects.vercel.app/",
     soruceCode: "https://github.com/mahmoudbahaa755/react-shopping-list",
-  }, {
+  },
+  {
     id: 1,
     name: "Loan Template",
     Technology: ["html", "css", "responsive"],
@@ -57,7 +68,7 @@ export const projects = [ {
     LiveServer: "https://template-3-eight.vercel.app/",
     soruceCode: "https://github.com/mahmoudbahaa755/Minx-Template",
   },
- 
+
   {
     id: 7,
     name: "Web Scrapping",
@@ -66,7 +77,6 @@ export const projects = [ {
     LiveServer: "https://github.com/mahmoudbahaa755/web-scrapping-wuzzef-",
     soruceCode: "https://github.com/mahmoudbahaa755/web-scrapping-wuzzef-",
   },
-  
 ];
 
 export const skills = {
@@ -79,5 +89,6 @@ export const skills = {
   firebase: "./icons/firebase.svg",
   bootstrap: "./icons/bootstrap.svg",
   python: "./icons/python.png",
+  mui: "./icons/material-ui.svg",
 };
 ;

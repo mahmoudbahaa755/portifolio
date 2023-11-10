@@ -37,7 +37,8 @@ const skills = [
   {
     title: "TailWind CSS",
     svg: "./images/tailwind.png",
-  },{
+  },
+  {
     title: "Bootstrap",
     svg: "./icons/bootstrap.svg",
   },
@@ -48,6 +49,10 @@ const skills = [
   {
     title: "SQL",
     svg: "./icons/sql.png",
+  },
+  {
+    title: "Material UI",
+    svg: "./icons/material-ui.svg",
   },
 ];
 export const metadata = {

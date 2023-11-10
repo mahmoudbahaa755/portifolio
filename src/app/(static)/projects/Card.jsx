@@ -28,13 +28,11 @@ export default function Card({ project }) {
                 <Image
                   src={project.image}
                   priority={false}
-                  
                   placeholder="empty"
                   layout="responsive"
                   width={400}
                   height={300}
-
-                  alt={project.name}
+                  alt={`${project.name}`}
                 />
               </div>
             </Link>
