@@ -17,6 +17,14 @@ export const projects = [
     soruceCode: "https://portifolio-ten-tawny.vercel.app/",
   },
   {
+    id: 11,
+    name: "Rayed Site",
+    Technology: ["next", "tailwind", "ts", "html", "responsive"],
+    image: "/images/rayed.png",
+    LiveServer: "https://rayed-site.ksbgarage.com/en",
+    soruceCode: "None",
+  },
+  {
     id: 8,
     name: "Restaurant Menu",
     Technology: ["html", "css", "react", "firebase", "responsive"],
@@ -38,7 +46,7 @@ export const projects = [
   {
     id: 9,
     name: "Form Page",
-    Technology: ["html", "css", "react",  "mui", "responsive"],
+    Technology: ["html", "css", "react", "mui", "responsive"],
     image: "/images/formPage.png",
     LiveServer: "https://form-three-snowy.vercel.app/",
     soruceCode: "https://github.com/mahmoudbahaa755/Form",
@@ -46,7 +54,7 @@ export const projects = [
   {
     id: 4,
     name: "Shopping List",
-    Technology: ["html", "css", "react", "responsive"],
+    Technology: ["html", "css", "js", "react", "responsive"],
     image: "/images/shopinglist.png",
     LiveServer:
       "https://react-shopping-list-9kn0j19qk-mahmoud-bahaas-projects.vercel.app/",
@@ -60,6 +68,7 @@ export const projects = [
     LiveServer: "https:/mahmoudbahaa12.github.io/Loan-Template/",
     soruceCode: "https://github.com/mahmoudbahaa12/Loan-Template",
   },
+
   {
     id: 5,
     name: "Minx Template",
@@ -83,6 +92,8 @@ export const skills = {
   html: "./icons/html.png",
   css: "./icons/css.png",
   js: "./icons/js.png",
+  ts: "./images/typescript.png",
+  tailwind: "./images/tailwind.png",
   react: "./icons/react.png",
   next: "/icons/nextjs.svg",
   responsive: "./icons/responsive.png",
@@ -91,4 +102,3 @@ export const skills = {
   python: "./icons/python.png",
   mui: "./icons/material-ui.svg",
 };
-;

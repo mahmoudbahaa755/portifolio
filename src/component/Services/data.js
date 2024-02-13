@@ -1,14 +1,15 @@
 export const services = [
   {
-    title: "WordPress",
-    imageSrc: "/icons/wordpress.png",
+    title: "AI",
+    imageSrc: "/icons/bot.png",
   },
   {
-    title: "Web Design",
-    imageSrc: "/icons/color-palette.png",
+    title: "Data Science",
+    imageSrc: "/icons/analysis.png",
   },
+
   {
-    title: "Web Development",
+    title: "Web Scraping",
     imageSrc: "/icons/coding.png",
   },
   {
@@ -16,7 +17,7 @@ export const services = [
     imageSrc: "/icons/seo.png",
   },
   {
-    title: "Fully Responsive",
+    title: "Web Devolopment",
     imageSrc: "/icons/responsive.png",
   },
   {
