@@ -17,7 +17,9 @@ export default function RootLayout({ children }) {
         <div className='main-flex'>
           <AppProvider>
            <MainNav />
-          <SolidPage>{children}</SolidPage>
+          <SolidPage>
+            {children}
+          </SolidPage>
         </AppProvider>
         </div>
 

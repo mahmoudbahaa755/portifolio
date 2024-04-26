@@ -1,8 +1,6 @@
-import Image from "next/image";
-import style from "./page.module.css";
-import Link from "next/link";
-import { projects } from "./data";
 import Card from "./Card";
+import { projects } from "./data";
+import style from "./page.module.css";
 export const metadata = {
   title: "Projects",
   Technology: "projects I have worked on.",

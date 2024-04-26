@@ -1,6 +1,5 @@
-import style from './page.module.css'; // Import style from 'page.module.css'
-import ContactMail from './contentComponent/ContactMail//ContactMail'
 import ContactInfo from './contentComponent/ContactInfo/ContactInfo';
+import style from './page.module.css'; // Import style from 'page.module.css'
 
 export const metadata = {
   title: "Contact me",

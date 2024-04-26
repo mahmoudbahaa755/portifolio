@@ -10,7 +10,7 @@ export default function Card({ project }) {
           <ul className={style.icons}>
             {project.Technology.map((tech, id) => (
               <li key={id}>
-                <Image src={skills[tech]} width={40} height={40} />
+                <Image src={skills[tech]} alt={tech} width={40} height={40} />
               </li>
             ))}
           </ul>
@@ -48,9 +48,9 @@ export default function Card({ project }) {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <circle cx="12" cy="12" r="10"></circle>
                 </svg>
@@ -72,9 +72,9 @@ export default function Card({ project }) {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <circle cx="12" cy="12" r="10"></circle>
                 </svg>

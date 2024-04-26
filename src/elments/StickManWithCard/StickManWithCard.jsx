@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import style from "./StickManWithCard.module.css";
-import { useAppContext } from "@/Context/AppContext";
 export default function StickManWithCard() {
   // const { hoveredIcon } = useAppContext();
   return (
