@@ -26,6 +26,7 @@ export const skills = [
     title: "Python",
     svg: "./icons/python.svg",
   },
+   
   {
     title: "TailWind CSS",
     svg: "./images/tailwind.png",

@@ -29,8 +29,8 @@ export default function Home() {
 
           <StickManWithCard />
           <p className={`${style.preaf} small `}>
-            I'm a web developer with 2 years of experience in creating
-            cutting-edge UX/UI designs and websites. My strength lies in
+            I'm a Software Engineer with 2 years of experience in creating
+            websites ,complex dashboards and ARB systems . My strength lies in
             translating ideas into intuitive, high-quality solutions.With a
             sharp focus on product evolution,
           </p>

@@ -18,7 +18,6 @@ export default function Projects() {
         <small className="small">Showcasing Some Of My Work</small>
       </div>
       <div className={style["project-list"]}>
-        {/* Loop */}
         {projects.map((project,index) => (
           <Card key={index} project={project} />
         
