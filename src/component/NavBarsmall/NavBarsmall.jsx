@@ -16,7 +16,7 @@ export default function Navbarsmall() {
     setSmallScreen(true);
   }
 const handleButton = () => {
-    if (isSmallScreen===true) {
+    if (isSmallScreen) {
       setButtonType('☰')
     }
     else{

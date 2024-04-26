@@ -10,7 +10,6 @@ export default function Contact() {
     return (
         <div >
             <div className='flex-mid'>
-
             <small className='small'>What's Next? I waiting your mail</small>
             <h1 className={`purple`}>Contact</h1>
             </div>
